@@ -3,7 +3,7 @@
 <node TEXT="Web Developper" FOLDED="false" ID="ID_1573981890" CREATED="1510133993600" MODIFIED="1513686851496" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="1.714">
-    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -81,7 +81,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="22" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="40" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Boostrap" FOLDED="true" POSITION="right" ID="ID_1526059022" CREATED="1510134056739" MODIFIED="1510137616353">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
@@ -414,7 +414,7 @@
 <node TEXT="nano-nom-du-fichier //permet de modifier un fichier" ID="ID_388230370" CREATED="1510134853903" MODIFIED="1510134853903"/>
 <node TEXT="rm -rf nom-du-dossier/fichier //permet de supprimer un dossier/fichier" ID="ID_78795693" CREATED="1510134862478" MODIFIED="1510134862478"/>
 </node>
-<node TEXT="Utilisation de git :" ID="ID_1703922642" CREATED="1510134872239" MODIFIED="1510134872239">
+<node TEXT="Utilisation de git :" FOLDED="true" ID="ID_1703922642" CREATED="1510134872239" MODIFIED="1510134872239">
 <node TEXT="git config (et git config --list) //sert &#xe0; configurer git" ID="ID_126109386" CREATED="1510134880742" MODIFIED="1510134880742"/>
 <node TEXT="git clon git://lien (+ /chemin/dossier/) //clone un d&#xe9;p&#xf4;t distant, inexistant en local(+ clone dans un r&#xe9;pertoire)" ID="ID_1358436524" CREATED="1510134892086" MODIFIED="1510134892086"/>
 <node TEXT="git status //permet de v&#xe9;rifier" ID="ID_1350292350" CREATED="1510134899588" MODIFIED="1510134899588"/>
@@ -441,8 +441,8 @@
 <node TEXT="Configurer un fichier Vhost :&#xa;cd /etc/ puis nano hosts. Ecrire 127.0.0.1 nom-du-fichier apr&#xe8;s la ligne 127.0.1.1&#xa;Enfin systemctl restart apache2" ID="ID_1425739510" CREATED="1510135193976" MODIFIED="1510140576567" HGAP_QUANTITY="25.999999642372142 pt" VSHIFT_QUANTITY="46.49999861419205 pt"/>
 </node>
 <node TEXT="Rendre inacessible certains fichiers :" FOLDED="true" ID="ID_555591097" CREATED="1510135366762" MODIFIED="1510140502974">
-<node TEXT="cd /etc/php/7.0/apache2" ID="ID_650430283" CREATED="1510135366762" MODIFIED="1510140502971">
-<node TEXT="nano php.ini" ID="ID_76327711" CREATED="1510135366762" MODIFIED="1510135366762">
+<node TEXT="cd /etc/php/7.0/apache2" FOLDED="true" ID="ID_650430283" CREATED="1510135366762" MODIFIED="1510140502971">
+<node TEXT="nano php.ini" FOLDED="true" ID="ID_76327711" CREATED="1510135366762" MODIFIED="1510135366762">
 <node TEXT="Rechercher display_error 2 fois et mettre sur on." ID="ID_389981044" CREATED="1510135383038" MODIFIED="1510135383038"/>
 </node>
 </node>
@@ -556,8 +556,8 @@
 <node TEXT="npm install -g bower" ID="ID_1869933308" CREATED="1510134056739" MODIFIED="1510658953629" VSHIFT_QUANTITY="3.7499998882412946 pt"/>
 </node>
 <node TEXT="Installer un paquet" FOLDED="true" ID="ID_464442726" CREATED="1510134056739" MODIFIED="1510663114032" VSHIFT_QUANTITY="3.7499998882412946 pt">
-<node TEXT="bower install &lt;package&gt; -&gt; installer un paquet" ID="ID_986570993" CREATED="1510134056739" MODIFIED="1510662969649" HGAP_QUANTITY="13.250000022351742 pt" VSHIFT_QUANTITY="4.499999865889554 pt">
-<node TEXT="touch .bowwerrc" ID="ID_1633160635" CREATED="1510134056739" MODIFIED="1510663182937" VSHIFT_QUANTITY="3.7499998882412946 pt">
+<node TEXT="bower install &lt;package&gt; -&gt; installer un paquet" FOLDED="true" ID="ID_986570993" CREATED="1510134056739" MODIFIED="1510662969649" HGAP_QUANTITY="13.250000022351742 pt" VSHIFT_QUANTITY="4.499999865889554 pt">
+<node TEXT="touch .bowwerrc" FOLDED="true" ID="ID_1633160635" CREATED="1510134056739" MODIFIED="1510663182937" VSHIFT_QUANTITY="3.7499998882412946 pt">
 <node TEXT="atom .bowerrc :&#xa;{&#xa;  &quot;directory&quot; : &quot;assets/lib/&quot;&#xa;}" ID="ID_878658600" CREATED="1510663185951" MODIFIED="1510663224970"/>
 </node>
 </node>
@@ -1272,7 +1272,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Connexion / D&#xe9;connexion" ID="ID_1383469476" CREATED="1513589574046" MODIFIED="1513589696320"><richcontent TYPE="NOTE">
+<node TEXT="Connexion / D&#xe9;connexion" FOLDED="true" ID="ID_1383469476" CREATED="1513589574046" MODIFIED="1513589696320"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2063,7 +2063,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Cookie" ID="ID_624088157" CREATED="1513601998494" MODIFIED="1513610227069"><richcontent TYPE="NOTE">
+<node TEXT="Cookie" FOLDED="true" ID="ID_624088157" CREATED="1513601998494" MODIFIED="1513610227069"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2198,7 +2198,7 @@
 </node>
 </node>
 <node TEXT="Dates" FOLDED="true" ID="ID_493794057" CREATED="1513669062641" MODIFIED="1513773866331">
-<node TEXT="M&#xe9;thodes" ID="ID_879331050" CREATED="1513669078433" MODIFIED="1513773866330">
+<node TEXT="M&#xe9;thodes" FOLDED="true" ID="ID_879331050" CREATED="1513669078433" MODIFIED="1513773866330">
 <node TEXT="date(&quot;&quot;)" ID="ID_100580678" CREATED="1513670679288" MODIFIED="1513671849128"><richcontent TYPE="NOTE">
 
 <html>
@@ -2654,6 +2654,448 @@
 </node>
 <node TEXT="SQL" POSITION="right" ID="ID_186179219" CREATED="1510134056739" MODIFIED="1510644477355" VSHIFT_QUANTITY="3.7499998882412946 pt">
 <edge COLOR="#ff0000"/>
+<node TEXT="Installer MySQL sur Linux" ID="ID_1051151281" CREATED="1516005550469" MODIFIED="1516011695932"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sudo yum install mysql mysql-server
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Lancer Mysql" ID="ID_1363918623" CREATED="1516005118215" MODIFIED="1516011801402"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mysql -h localhost -u root -p
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      exit pour se d&#233;connecter
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="SELECT" ID="ID_508572118" CREATED="1516005118572" MODIFIED="1516011934601"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Permet la s&#233;l&#233;ction et l'affichage d'une donn&#233;e
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="GRANT ALL PRIVILEGES ON elevage.* TO &apos;sdz&apos;@&apos;localhost&apos; IDENTIFIED BY &apos;mot_de_passe&apos;;" ID="ID_993982110" CREATED="1516005118961" MODIFIED="1516012423447">
+<node TEXT="GRANT ALL PRIVILEGES" ID="ID_1347494780" CREATED="1516012440029" MODIFIED="1516012462569"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      permet d'attribuer tous les droits (c'est-&#224;-dire insertions de donn&#233;es, s&#233;lections, modifications, suppressions&#8230;)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="ON elevage.*" ID="ID_1434530589" CREATED="1516012440029" MODIFIED="1516012490670"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      d&#233;finit les bases de donn&#233;es et les tables sur lesquelles ces droits sont acquis. Donc ici, on donne les droits sur la base &quot;elevage&quot;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="TO &apos;sdz&apos;" ID="ID_300977355" CREATED="1516012440043" MODIFIED="1516012508545"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      d&#233;finit l'utilisateur auquel on accorde ces droits. Si l'utilisateur n'existe pas, il est cr&#233;&#233;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="@&apos;localhost&apos;" ID="ID_979654078" CREATED="1516012440047" MODIFIED="1516012523842"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      d&#233;finit &#224; partir d'o&#249; l'utilisateur peut exercer ces droits. Dans notre cas, 'localhost', donc il devra &#234;tre connect&#233; &#224; partir de cet ordinateur.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="IDENTIFIED BY &apos;mot_de_passe&apos;" ID="ID_140861957" CREATED="1516012440049" MODIFIED="1516012538226"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      d&#233;finit le mot de passe de l'utilisateur
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="SET NAMES &apos;utf8&apos;;" FOLDED="true" ID="ID_789034123" CREATED="1516005119318" MODIFIED="1516013301095"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Permet de mettre l'encodage UTF-8
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="mysql -u root -p --default-character-set=utf8" ID="ID_1763717458" CREATED="1516013369419" MODIFIED="1516013397056"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Permet d'avoir l'encodage utf-8 d&#232;s la connexion
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Interclassement" ID="ID_1673649458" CREATED="1516013489868" MODIFIED="1516013542755"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ensemble de r&#232;gle qui viennent s'ajouter &#224; l&quot;encodage
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Cr&#xe9;er/supprimer/utiliser une base de donn&#xe9;e" ID="ID_1441706589" CREATED="1516020375166" MODIFIED="1516021681237">
+<node TEXT="CREATE DATABASE nom-de-la-base-de-donn&#xe9;e CHARACTER SET &apos;utf8&apos;;" ID="ID_812134484" CREATED="1516020393769" MODIFIED="1516020438840"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cr&#233;er une base de donn&#233;e, avec les caract&#232;res UTF-8
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="DROP DATABASE nom-de-la-base-de-don&#xe9;e;" ID="ID_636740326" CREATED="1516020453785" MODIFIED="1516020479642"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Supprime la base de donn&#233;e
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="USE nom;" FOLDED="true" ID="ID_1213282066" CREATED="1516021685520" MODIFIED="1516021708907"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Permet d'utiliser une base de donn&#233;e.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="mysql -u sdz -p nom;" ID="ID_1401229519" CREATED="1516021731985" MODIFIED="1516021752900"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Permet de se connecter une base de donn&#233;e
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="CREATE TABLE Animal (&#xa;    id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,&#xa;    espece VARCHAR(40) NOT NULL,&#xa;    sexe CHAR(1),&#xa;    date_naissance DATETIME NOT NULL,&#xa;    nom VARCHAR(30),&#xa;    commentaires TEXT,&#xa;    PRIMARY KEY (id)&#xa;)&#xa;&#xa;ENGINE=INNODB;" ID="ID_1497810708" CREATED="1516024163840" MODIFIED="1516024192903"/>
+<node TEXT="Tables" ID="ID_1037507110" CREATED="1516025442026" MODIFIED="1516025451373">
+<node TEXT="SHOW TABLES;" ID="ID_472855109" CREATED="1516024259704" MODIFIED="1516024287570"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      liste les tables de la base de donn&#233;es
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="DESCRIBE Animal;" ID="ID_321247773" CREATED="1516024259704" MODIFIED="1516024299266"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      liste les colonnes de la table avec leurs caract&#233;ristiques
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="ALTER TABLE nom_table&#xa;ADD [COLUMN] nom_colonne description_colonne;" ID="ID_651943244" CREATED="1516025454255" MODIFIED="1516026071175"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ajoute une colonne
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="ALTER TABLE nom_table&#xa;DROP [COLUMN] nom_colonne;" ID="ID_341666648" CREATED="1516025454255" MODIFIED="1516026104255"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Supprimer une colonne
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="DROP TABLE librairies;" ID="ID_1091880763" CREATED="1516092092040" MODIFIED="1516092105238"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Supprime une table
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="ALTER TABLE nom_table&#xa;CHANGE [COLUMN] nom_colonne description_colonne;" ID="ID_745000630" CREATED="1516093921047" MODIFIED="1516095123089"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Change le nom d'une colonne &#224; une table
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="DESCRIBE `frameworks`;" ID="ID_865195797" CREATED="1516096261293" MODIFIED="1516096306648"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Liste les colonnes de la table
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="SHOW TABLES;" ID="ID_521060240" CREATED="1516096325195" MODIFIED="1516096341707"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Montre les tables d'une base de donn&#233;e
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Ins&#xe9;rer des infos" FOLDED="true" ID="ID_473602269" CREATED="1516107289184" MODIFIED="1516107298606">
+<node TEXT="INSERT INTO languages (id, language, version)&#xa;VALUES (1, &apos;Javascript&apos;, &apos;version 5&apos;);" ID="ID_1651468641" CREATED="1516100640652" MODIFIED="1516100684368"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Insert une info dans une table
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="INSERT INTO languages (language, version)&#xa;values(&apos;PHP&apos;, &apos;version 5.2&apos;),&#xa;(&apos;PHP&apos;, &apos;version 5.4&apos;),&#xa;(&apos;HTML&apos;, &apos;version 5.1&apos;),&#xa;(&apos;Javascript&apos;, &apos;version 6&apos;),&#xa;(&apos;Javascript&apos;, &apos;version 7&apos;),&#xa;(&apos;Javascript&apos;, &apos;version 8&apos;),&#xa;(&apos;PHP&apos;, &apos;version 7&apos;);" ID="ID_1172709784" CREATED="1516100690500" MODIFIED="1516107303574"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Insert plusieurs infos fans une table
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="S&#xe9;lectionner des infos" ID="ID_753848235" CREATED="1516107307498" MODIFIED="1516107317228">
+<node TEXT="SELECT * FROM languages;" ID="ID_1499671683" CREATED="1516100597637" MODIFIED="1516100618398"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Affiche les infos d'une table
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="SELECT * FROM languages WHERE language=&apos;PHP&apos;;" ID="ID_1501809048" CREATED="1516107338818" MODIFIED="1516108387884"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Recherche des infos avec des crit&#232;res pr&#233;cis
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Op&#xe9;rateur logiques" FOLDED="true" ID="ID_1078744928" CREATED="1516108370973" MODIFIED="1516108378753">
+<node TEXT="=" ID="ID_1098825225" CREATED="1516108338985" MODIFIED="1516108338985"/>
+<node TEXT="&lt;" ID="ID_600158440" CREATED="1516108338986" MODIFIED="1516108338986"/>
+<node TEXT="&lt;=" ID="ID_1346435478" CREATED="1516108338987" MODIFIED="1516108338987"/>
+<node TEXT="&gt;" ID="ID_535214934" CREATED="1516108338987" MODIFIED="1516108338987"/>
+<node TEXT="&gt;=" ID="ID_688043466" CREATED="1516108338988" MODIFIED="1516108338988"/>
+<node TEXT="&lt;&gt; ou !=" ID="ID_124093133" CREATED="1516108338989" MODIFIED="1516108338989"/>
+<node TEXT="&lt;=&gt;" ID="ID_124927296" CREATED="1516108338990" MODIFIED="1516108338990"/>
+</node>
+<node TEXT="Combinaison de crit&#xe8;res" FOLDED="true" ID="ID_827205393" CREATED="1516108434894" MODIFIED="1516108444002">
+<node TEXT="AND" ID="ID_1674116039" CREATED="1516108446108" MODIFIED="1516108446108"/>
+<node TEXT="&amp;&amp;" ID="ID_400868610" CREATED="1516108446108" MODIFIED="1516108446108"/>
+<node TEXT="OR" ID="ID_310265821" CREATED="1516108446111" MODIFIED="1516108446111"/>
+<node TEXT="XOR" ID="ID_576240659" CREATED="1516108446114" MODIFIED="1516108446114"/>
+<node TEXT="NOT" ID="ID_1607695467" CREATED="1516108446115" MODIFIED="1516108446115"/>
+</node>
+<node TEXT="Exemples :&#xa;SELECT * FROM languages;&#xa;&#xa;SELECT * FROM languages WHERE language=&apos;PHP&apos;;&#xa;&#xa;SELECT * FROM languages WHERE language=&apos;PHP&apos; OR language=&apos;Javascript&apos;;&#xa;&#xa;SELECT * FROM languages WHERE id=3 OR id=5 OR id=7;&#xa;&#xa;SELECT * FROM languages WHERE language=&apos;Javascript&apos; AND id=1 OR id=5;&#xa;&#xa;SELECT * FROM languages WHERE NOT language=&apos;PHP&apos;;&#xa;&#xa;SELECT * FROM languages ORDER BY language ASC;" ID="ID_1502055153" CREATED="1516109664108" MODIFIED="1516109728470"/>
+</node>
+</node>
+<node TEXT="CREATE DATABASE IF NOT EXISTS frameworks CHARACTER SET &apos;utf8&apos;;" ID="ID_663225629" CREATED="1516028816873" MODIFIED="1516028839452"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cr&#233;e une base de don&#233;e si elle n'existe pas
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="ALTER TABLE nom_table&#xa;MODIFY nom_colonne nouvelle_description;" ID="ID_347810717" CREATED="1516095902728" MODIFIED="1516100598043"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Modifier le type d'une colonne
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node TEXT="Canvas" FOLDED="true" POSITION="left" ID="ID_816584781" CREATED="1510134056739" MODIFIED="1511173187651" VSHIFT_QUANTITY="3.7499998882412946 pt">
 <edge COLOR="#ff0000"/>
@@ -3265,7 +3707,7 @@
 <edge COLOR="#00ffff"/>
 <node TEXT="$(function(){&#xa;  var valeurtotal = 0;&#xa;  // Quand on clique sur le panier d&apos;un article&#xa;   $(&quot;figure &gt; button&quot;).on(&quot;click&quot;,function(id){&#xa;     // Recuperer id du parent de input&#xa;     var id=$(this).parent(&quot;figure&quot;).attr(&quot;id&quot;);&#xa;     // recuperer src de article actuelle&#xa;      var img =$(&apos;#&apos;+id+&apos; &gt; img&apos;).attr(&apos;src&apos;);&#xa;      // recuperer le price&#xa;      var price=$(&apos;#&apos;+id+&apos; .price&apos;).text();&#xa;      // split de price pou r&#xe9;cuperer la partie nombre&#xa;      price = price.split(&quot; &quot;);&#xa;      // Ajout la partie nombre dans la variable price&#xa;      price = price[2];&#xa;      var ref =$(&apos;#&apos;+id+&apos;&gt; img&apos;).attr(&apos;ref&apos;);&#xa;      var pricetotal = price * value;&#xa;      $(&apos;#blabla&apos;).find(&apos;#test&apos;).text(valeurtotal);&#xa;      if($(&apos;#tr&apos;+id+&apos;&apos;).length &gt; 0 ){&#xa;        alert(&apos;L\&apos;article est d&#xe9;j&#xe0; dans le panier.&apos;);&#xa;        var value = $(&apos;#tabl&apos;+id+&apos; &gt; input&apos;).val();&#xa;        value++;&#xa;        $(&apos;#tabl&apos;+id+&apos; &gt; input&apos;).val(value);&#xa;        pricetotal = price * value;&#xa;        $(&apos;#priceTotal&apos;+id+&apos;&gt; p&apos;).text(pricetotal);&#xa;        valeurtotal = valeurtotal + parseInt(price);&#xa;        $(&apos;#blabla&apos;).find(&apos;#test&apos;).text(valeurtotal +&apos; He&apos;);&#xa;      }else {&#xa;        $(&quot;tbody&quot;).append( &quot;&lt;tr id=&apos;tr&quot;+id+&quot;&apos;&gt;&quot; +&quot;&lt;td&gt;&lt;img src=\&quot;&quot;+ img +&quot;\&quot; class=\&quot;imgbasket\&quot;/&gt;&lt;/td&gt;&quot;+&quot;&lt;td&gt;&quot;+ref+&quot;&lt;/td&gt;&quot;+&quot;&lt;td id=&apos;price&quot;+id+&quot;&apos;&gt;&quot;+price+&quot; He&lt;/td&gt;&quot; +&quot;&lt;td id=&apos;tabl&quot;+id+&quot;&apos;&gt;&lt;button class=&apos;plus&apos;&gt;+&lt;/button&gt;&lt;input class=&apos;price&apos; value=&apos;1&apos; disabled/&gt;&lt;button class=&apos;supp&apos;&gt;-&lt;/button&gt;&lt;/td&gt;&quot;+&quot;&lt;td id=&apos;priceTotal&quot;+id+&quot;&apos;&gt;&lt;p&gt;&quot;+pricetotal+&quot;&lt;/p&gt;&lt;/td&gt;&quot;+&quot;&lt;td id=&apos;supp&quot;+id+&quot;&apos;&gt;&lt;a&gt;&lt;i class=\&quot;icofont icofont-delete-alt\&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;&quot;+&quot;&lt;/tr&gt;&quot; );&#xa;        alert(&apos;L\&apos;article a &#xe9;t&#xe8; ajouter au panier.&apos;);&#xa;        var value = $(&apos;#tabl&apos;+id+&apos; &gt; input&apos;).val();&#xa;        pricetotal = value * price;&#xa;        $(&apos;#priceTotal&apos;+id+&apos;&gt; p&apos;).text(pricetotal);&#xa;        valeurtotal = $(&apos;#blabla&apos;).find(&apos;#test&apos;).text();&#xa;        valeurtotal = parseFloat(valeurtotal) + parseInt(price);&#xa;        $(&apos;#blabla&apos;).find(&apos;#test&apos;).text(valeurtotal +&apos; He&apos;);&#xa;      };&#xa;    $(&apos;#supp&apos;+id+&apos; &gt; a&apos;).click(function(){&#xa;      $(&apos;#tr&apos;+id+&apos;&apos;).remove();&#xa;    });&#xa;  });&#xa;$(&apos;#myBtn&apos;).on(&quot;click&quot;,function () {&#xa;  // Augmenter la quantit&#xe9; d&apos;un article&#xa;  $(&apos;.plus&apos;).click(function() {&#xa;    // R&#xe9;cuperer la value de l&apos;input de l&apos;article&#xa;    var valeurtotal = $(&apos;#blabla&apos;).find(&apos;#test&apos;).text();&#xa;    var id =$(this).parent(&apos;td&apos;).attr(&apos;id&apos;);&#xa;    var value = $(&apos;#&apos;+id+&apos; &gt; input&apos;).val();&#xa;    // Prend la value et on fait +1&#xa;    value++;&#xa;    // Ajouter la value dans l&apos;input&#xa;    $(&apos;#&apos;+id+&apos; &gt; input&apos;).val(value);&#xa;    var length = id.length;&#xa;    id = id.substring(4,length);&#xa;    var valeur = $(&apos;#price&apos;+id+&apos;&apos;).text();&#xa;    valeur = parseInt(valeur);&#xa;    pricetotal = valeur * value;&#xa;    $(&apos;#priceTotal&apos;+id+&apos;&gt; p&apos;).text(pricetotal);&#xa;    valeurtotal = $(&apos;#blabla&apos;).find(&apos;#test&apos;).text();&#xa;    valeurtotal = parseFloat(valeurtotal) + valeur;&#xa;    $(&apos;#blabla&apos;).find(&apos;#test&apos;).text(valeurtotal +&apos; He&apos;);&#xa;&#xa;  });&#xa;  // Baisse la quantit&#xe9; d&apos;une article&#xa;  $(&apos;.supp&apos;).click(function() {&#xa;    // R&#xe9;cuperer la value de l&apos;input de l&apos;article&#xa;    var id =$(this).parent(&apos;td&apos;).attr(&apos;id&apos;);&#xa;    var value = $(&apos;#&apos;+id+&apos; &gt; input&apos;).val();&#xa;    // Prend la value et on fait -1&#xa;    value--;&#xa;    // Ajouter la value dans l&apos;input&#xa;    $(&apos;#&apos;+id+&apos; &gt; input&apos;).val(value);&#xa;    var length = id.length;&#xa;    id = id.substring(4,length);&#xa;    var price = $(&apos;#price&apos;+id+&apos;&apos;).text();&#xa;    pricetotal = pricetotal - price;&#xa;    $(&apos;#priceTotal&apos;+id+&apos;&gt; p&apos;).text(pricetotal);&#xa;    valeurtotal = $(&apos;#blabla&apos;).find(&apos;#test&apos;).text();&#xa;    valeurtotal = parseFloat(valeurtotal) - price ;&#xa;    $(&apos;#blabla&apos;).find(&apos;#test&apos;).text(valeurtotal +&apos; He&apos;);&#xa;    // Si value de l&apos;input = 0 alors on supprime la ligne du tableau&#xa;    if(value == 0){&#xa;      $(&apos;#tr&apos;+id+&apos;&apos;).remove();&#xa;    }&#xa;  });&#xa;});&#xa;  $(&quot;#myBtn&quot;).click(function(){&#xa;    $(&quot;#myModal&quot;).modal();&#xa;  });&#xa;  $(&apos;figure&apos;).hover(function(){&#xa;     $(&apos;#&apos;+this.id +&apos; span&apos;).show();&#xa;&#xa;   }, function() {&#xa;     $(&apos;#&apos;+this.id +&apos; span&apos;).hide();&#xa; });&#xa;});" ID="ID_939269658" CREATED="1511469587508" MODIFIED="1511469595303"/>
 </node>
-<node TEXT="XML" POSITION="right" ID="ID_416249551" CREATED="1515579953768" MODIFIED="1515579964108">
+<node TEXT="XML" FOLDED="true" POSITION="right" ID="ID_416249551" CREATED="1515579953768" MODIFIED="1515579964108">
 <edge COLOR="#007c00"/>
 <node TEXT="Afficher le contu du fichier XML" ID="ID_1028421104" CREATED="1515579966291" MODIFIED="1515580091152"><richcontent TYPE="NOTE">
 
@@ -3282,10 +3724,9 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="Voccabulaire" ID="ID_1351438774" CREATED="1515580169667" MODIFIED="1515580178608">
+<node TEXT="Voccabulaire" FOLDED="true" ID="ID_1351438774" CREATED="1515580169667" MODIFIED="1515580178608">
 <node TEXT="N&#x153;ud racine" ID="ID_1143262367" CREATED="1515580184670" MODIFIED="1515580204785"><richcontent TYPE="NOTE">
 
 <html>
@@ -3298,7 +3739,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="N&#x153;ud parent" ID="ID_43329972" CREATED="1515580184670" MODIFIED="1515580223254"><richcontent TYPE="NOTE">
@@ -3313,7 +3753,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="N&#x153;ud associ&#xe9;" ID="ID_1324826415" CREATED="1515580184718" MODIFIED="1515580246657"><richcontent TYPE="NOTE">
@@ -3328,7 +3767,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="N&#x153;ud enfant" ID="ID_711075721" CREATED="1515580184727" MODIFIED="1515580267313"><richcontent TYPE="NOTE">
@@ -3343,11 +3781,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="M&#xe9;thodes" ID="ID_885873120" CREATED="1515580460365" MODIFIED="1515580475485">
+<node TEXT="M&#xe9;thodes" FOLDED="true" ID="ID_885873120" CREATED="1515580460365" MODIFIED="1515580475485">
 <node TEXT="$document_xml-&gt;getElementsByTagName(&apos;menu&apos;);" ID="ID_1717195720" CREATED="1515580479787" MODIFIED="1515582843779"><richcontent TYPE="NOTE">
 
 <html>
@@ -3360,10 +3797,26 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="" ID="ID_1263294626" CREATED="1515580485826" MODIFIED="1515580485826"/>
+<node TEXT="Parser le XML" FOLDED="true" ID="ID_1251548596" CREATED="1516003696674" MODIFIED="1516003729413">
+<node TEXT="DOMDOCUMENT" ID="ID_1439110623" CREATED="1516003696153" MODIFIED="1516003738126"/>
+<node TEXT="SIMPLEXML" ID="ID_1698964716" CREATED="1516003707732" MODIFIED="1516003743627"/>
+</node>
+</node>
+<node TEXT="&lt;![CDATA[   ]]" ID="ID_645652925" CREATED="1516003284745" MODIFIED="1516003886093"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Indique que ce qui a &#224; l'int&#233;rieur n'est pas du XML.
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node TEXT="Pitch" FOLDED="true" POSITION="left" ID="ID_128495957" CREATED="1512048881494" MODIFIED="1512048888922">
@@ -3373,6 +3826,35 @@
 <node TEXT="1 id&#xe9;e = 1 phrase" ID="ID_789240701" CREATED="1512048911089" MODIFIED="1512048932199"/>
 <node TEXT="Pas trop complexe/technique" ID="ID_1844834745" CREATED="1512048907964" MODIFIED="1512048948492"/>
 <node TEXT="Pas de mot parasite" ID="ID_1458543707" CREATED="1512048949811" MODIFIED="1512048964777"/>
+</node>
+<node TEXT="Recherche d&apos;emploi" FOLDED="true" POSITION="left" ID="ID_1272445289" CREATED="1516001873018" MODIFIED="1516001881955">
+<edge COLOR="#ff0000"/>
+<node TEXT="Indeed" ID="ID_1090630822" CREATED="1516001882537" MODIFIED="1516001902823"/>
+<node TEXT="RegionJob" ID="ID_90320758" CREATED="1516001905310" MODIFIED="1516002005083"/>
+<node TEXT="Viadeo" ID="ID_1874158729" CREATED="1516001906596" MODIFIED="1516002005084"/>
+<node TEXT="Leboncoin" ID="ID_1833547021" CREATED="1516001908121" MODIFIED="1516002005084"/>
+<node TEXT="Lesjeudiz" ID="ID_158681189" CREATED="1516001910355" MODIFIED="1516002005084"/>
+<node TEXT="Monster" ID="ID_701068425" CREATED="1516001943144" MODIFIED="1516002005085"/>
+<node TEXT="ChooseYourBoss" ID="ID_1858362041" CREATED="1516001947360" MODIFIED="1516002005085"/>
+<node TEXT="Google" ID="ID_217127830" CREATED="1516001948695" MODIFIED="1516002005085"/>
+<node TEXT="StackOverflow" ID="ID_248962065" CREATED="1516001982573" MODIFIED="1516002005120"/>
+<node TEXT="APEC" ID="ID_1536316024" CREATED="1516002810684" MODIFIED="1516002817115"/>
+</node>
+<node TEXT="R&#xe9;&#xe9;criture d&apos;URL" POSITION="right" ID="ID_1679269872" CREATED="1516005106888" MODIFIED="1516005187660">
+<edge COLOR="#ff0000"/>
+<node TEXT="" ID="ID_425377279" CREATED="1516005550469" MODIFIED="1516005550469"/>
+<node TEXT="" ID="ID_1216823778" CREATED="1516005118215" MODIFIED="1516005124964"/>
+<node TEXT="" ID="ID_1597170408" CREATED="1516005118572" MODIFIED="1516005124966"/>
+<node TEXT="" ID="ID_1123490784" CREATED="1516005118961" MODIFIED="1516005124968"/>
+<node TEXT="" ID="ID_1937064711" CREATED="1516005119318" MODIFIED="1516005125002"/>
+</node>
+<node TEXT=".htpasswd" POSITION="right" ID="ID_252793317" CREATED="1516005117839" MODIFIED="1516005578149">
+<edge COLOR="#00007c"/>
+<node TEXT="" ID="ID_1359059070" CREATED="1516005550469" MODIFIED="1516005550469"/>
+<node TEXT="" ID="ID_1495629368" CREATED="1516005118215" MODIFIED="1516005124964"/>
+<node TEXT="" ID="ID_565576670" CREATED="1516005118572" MODIFIED="1516005124966"/>
+<node TEXT="" ID="ID_1034853516" CREATED="1516005118961" MODIFIED="1516005124968"/>
+<node TEXT="" ID="ID_1510240272" CREATED="1516005119318" MODIFIED="1516005125002"/>
 </node>
 </node>
 </map>
