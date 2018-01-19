@@ -292,7 +292,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Methodes" FOLDED="true" ID="ID_143870377" CREATED="1510135658022" MODIFIED="1510563807749"><richcontent TYPE="NOTE">
+<node TEXT="Methodes" FOLDED="true" ID="ID_143870377" CREATED="1510135658022" MODIFIED="1516353128615"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -305,32 +305,396 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="typeof() -&gt; renvoie le type de la chaine" ID="ID_1834392370" CREATED="1510135671159" MODIFIED="1510135671159"/>
-<node TEXT="replace(&quot;&quot;,&quot;&quot;) -&gt; remplace une valeur par une autre" ID="ID_180950159" CREATED="1510135671159" MODIFIED="1510135671159"/>
-<node TEXT="texte1.concat(texte2) -&gt; concat&#xe8;ne 2 variables" ID="ID_1097471534" CREATED="1510135671159" MODIFIED="1510135671159"/>
-<node TEXT="charAt() -&gt; retourne le caract&#xe8;re" ID="ID_1312730299" CREATED="1510135671160" MODIFIED="1510135671160"/>
-<node TEXT="texte.substr(0,9) -&gt; retourne les caract&#xe8;res de l&apos;indice 0 &#xe0; 9" ID="ID_56781489" CREATED="1510135671160" MODIFIED="1510135671160"/>
-<node TEXT="trim() -&gt; supprime les espaces avant et apr&#xe8;s la variable" ID="ID_1087506317" CREATED="1510135671163" MODIFIED="1510135671163"/>
-<node TEXT="isNaN() -&gt; d&#xe9;termine si la variable pass&#xe9;e en param&#xe8;tre est un nombre ou pas" ID="ID_1140102348" CREATED="1510135671164" MODIFIED="1510135671164"/>
-<node TEXT="texte.substr(indice pour le d&#xe9;marrage, longueur) -&gt; renvoie une partie de la chaine de caract&#xe8;re cibl&#xe9;e" ID="ID_623926072" CREATED="1510135671165" MODIFIED="1510135671165"/>
-<node TEXT="texte.lastIndexOf() -&gt; renvoie l&apos;indice de la derni&#xe8;re occurence trouv&#xe9;" ID="ID_1644814898" CREATED="1510135671166" MODIFIED="1510135671166"/>
-<node TEXT="texte.split(s&#xe9;parateur) -&gt; permet de s&#xe9;parer une chaine en plusieurs &#xe9;l&#xe9;ments" ID="ID_167500589" CREATED="1510135671170" MODIFIED="1510135671170"/>
-<node TEXT="split(&apos; &apos;) -&gt; met chaque sur une ligne, donc -1 avec le length" ID="ID_791939769" CREATED="1510135671171" MODIFIED="1510135671171"/>
-<node TEXT="reverse() -&gt; permet de renverser l&apos;ordre des &#xe9;l&#xe9;ments" ID="ID_944613813" CREATED="1510135671172" MODIFIED="1510135671172"/>
-<node TEXT="join(s&#xe9;parateur) -&gt; reunit des &#xe9;l&#xe9;ments en une chaine de caract&#xe8;re, le s&#xe9;parateur indique ce qui s&#xe9;pare les &#xe9;l&#xe9;ments de la chaine" ID="ID_1827956649" CREATED="1510135671173" MODIFIED="1510563403815" HGAP_QUANTITY="22.999999731779106 pt" VSHIFT_QUANTITY="-4.499999865889554 pt"/>
-<node TEXT="split(&apos;&apos;) -&gt; chause &#xe9;l&#xe9;ment devient un chaine de caract&#xe8;re" ID="ID_234860227" CREATED="1510135671173" MODIFIED="1510135671173"/>
-<node TEXT="Math.abs() -&gt; retourne l&apos;entier positif" ID="ID_303863023" CREATED="1510135671174" MODIFIED="1510135671174"/>
-<node TEXT="Math.round -&gt; retourne l&apos;arrondi d&apos;un nombre" ID="ID_443354923" CREATED="1510135671174" MODIFIED="1510135671174"/>
-<node TEXT="Math.pow(x, y) -&gt; x puissance y" ID="ID_357332273" CREATED="1510135671174" MODIFIED="1510135671174"/>
-<node TEXT="Math.sqrt(ab + ac) -&gt; permet de calculer la racine carr&#xe9; d&apos;une valeur" ID="ID_1982100068" CREATED="1510135671174" MODIFIED="1510135671174"/>
-<node TEXT="Math.hypot(ab,ac) -&gt; renvoie la racine carr&#xe9;e de ab&#xb2; + ac&#xb2;" ID="ID_1931658879" CREATED="1510135671174" MODIFIED="1510135671174"/>
-<node TEXT="array.map() -&gt; cr&#xe9;e un tableau" ID="ID_1155586099" CREATED="1510135671175" MODIFIED="1510135671175"/>
-<node TEXT="cal.toFixed() -&gt; permet de d&#xe9;terminer le nombre de chifrre apr&#xe8;s la virgule" ID="ID_537691529" CREATED="1510135671176" MODIFIED="1510135671176"/>
-<node TEXT="parseFloat() -&gt; permet de transformer une chaine de caract&#xe8;re en nombre flottant" ID="ID_3314938" CREATED="1510135671177" MODIFIED="1510135671177"/>
-<node TEXT="keyup() -&gt; lorsque l&apos;on appuie plus" ID="ID_714871098" CREATED="1510138262208" MODIFIED="1510138351477"/>
-<node TEXT="keydown() -&gt; lorsque l&apos;on appuie" ID="ID_1787305007" CREATED="1510138270018" MODIFIED="1510138377758" HGAP_QUANTITY="14.0 pt" VSHIFT_QUANTITY="5.99999982118607 pt"/>
-<node TEXT="heypress() -&gt; lorsque l&apos;on appuie puis relache" ID="ID_255013739" CREATED="1510138268112" MODIFIED="1510563807748" HGAP_QUANTITY="14.749999977648256 pt" VSHIFT_QUANTITY="-4.499999865889556 pt"/>
-<node TEXT="fruits.pop()/fruits.shift() -&gt; supprime le premier/dernier &#xe9;l&#xe9;ment d&apos;un tableau" ID="ID_679826130" CREATED="1510563788407" MODIFIED="1510563861789" HGAP_QUANTITY="11.000000089406964 pt" VSHIFT_QUANTITY="-124.49999628961096 pt"/>
+<node TEXT="typeof()" ID="ID_1834392370" CREATED="1510135671159" MODIFIED="1516353403109"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      renvoie le type de la chaine
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="replace(&quot;&quot;,&quot;&quot;)" ID="ID_180950159" CREATED="1510135671159" MODIFIED="1516353393227"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      remplace une valeur par une autre
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="texte1.concat(texte2)" ID="ID_1097471534" CREATED="1510135671159" MODIFIED="1516353382394"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      concat&#232;ne 2 variables
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="charAt()" ID="ID_1312730299" CREATED="1510135671160" MODIFIED="1516353368464"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      retourne le caract&#232;re
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="texte.substr(0,9)" ID="ID_56781489" CREATED="1510135671160" MODIFIED="1516353357663"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      retourne les caract&#232;res de l'indice 0 &#224; 9
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="trim()" ID="ID_1087506317" CREATED="1510135671163" MODIFIED="1516353338677"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      supprime les espaces avant et apr&#232;s la variable
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="isNaN()" ID="ID_1140102348" CREATED="1510135671164" MODIFIED="1516353259403"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      d&#233;termine si la variable pass&#233;e en param&#232;tre est un nombre ou pas
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="texte.substr(indice pour le d&#xe9;marrage, longueur)" ID="ID_623926072" CREATED="1510135671165" MODIFIED="1516353246569"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      renvoie une partie de la chaine de caract&#232;re cibl&#233;e
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="texte.lastIndexOf()" ID="ID_1644814898" CREATED="1510135671166" MODIFIED="1516353226886"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      renvoie l'indice de la derni&#232;re occurence trouv&#233;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="texte.split(s&#xe9;parateur)" ID="ID_167500589" CREATED="1510135671170" MODIFIED="1516353180399"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      permet de s&#233;parer une chaine en plusieurs &#233;l&#233;ments
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="split(&apos; &apos;)" ID="ID_791939769" CREATED="1510135671171" MODIFIED="1516353166277"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      met chaque sur une ligne, donc -1 avec le length
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="reverse()" ID="ID_944613813" CREATED="1510135671172" MODIFIED="1516353151260"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      permet de renverser l'ordre des &#233;l&#233;ments
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="join(s&#xe9;parateur)" ID="ID_1827956649" CREATED="1510135671173" MODIFIED="1516353133836" HGAP_QUANTITY="11.750000067055224 pt" VSHIFT_QUANTITY="-4.499999865889554 pt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      reunit des &#233;l&#233;ments en une chaine de caract&#232;re, le s&#233;parateur indique ce qui s&#233;pare les &#233;l&#233;ments de la chaine
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="split(&apos;&apos;)" ID="ID_234860227" CREATED="1510135671173" MODIFIED="1516353111796"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      chaque &#233;l&#233;ment devient un chaine de caract&#232;re
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Math.abs()" ID="ID_303863023" CREATED="1510135671174" MODIFIED="1516353086316"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      retourne l'entier positif
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Math.round" ID="ID_443354923" CREATED="1510135671174" MODIFIED="1516353073844"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      retourne l'arrondi d'un nombre
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Math.pow(x, y)" ID="ID_357332273" CREATED="1510135671174" MODIFIED="1516353062347"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      x puissance y
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Math.sqrt(ab + ac)" ID="ID_1982100068" CREATED="1510135671174" MODIFIED="1516353040444"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      permet de calculer la racine carr&#233; d'une valeur
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Math.hypot(ab,ac)" ID="ID_1931658879" CREATED="1510135671174" MODIFIED="1516353021379"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      renvoie la racine carr&#233;e de ab&#178; + ac&#178;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="array.map()" ID="ID_1155586099" CREATED="1510135671175" MODIFIED="1516352977235"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cr&#233;e un tableau
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="cal.toFixed()" ID="ID_537691529" CREATED="1510135671176" MODIFIED="1516352959963"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      permet de d&#233;terminer le nombre de chifrre apr&#232;s la virgule
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="parseFloat()" ID="ID_3314938" CREATED="1510135671177" MODIFIED="1516352945419"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      permet de transformer une chaine de caract&#232;re en nombre flottant
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="keyup()" ID="ID_714871098" CREATED="1510138262208" MODIFIED="1516352859963"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      lorsque l'on appuie plus
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="keydown()" ID="ID_1787305007" CREATED="1510138270018" MODIFIED="1516352877011" HGAP_QUANTITY="14.0 pt" VSHIFT_QUANTITY="5.99999982118607 pt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      lorsque l'on appuie
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="keypress()" ID="ID_255013739" CREATED="1510138268112" MODIFIED="1516352901162" HGAP_QUANTITY="14.749999977648256 pt" VSHIFT_QUANTITY="-4.499999865889556 pt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      lorsque l'on appuie puis relache
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="fruits.pop()/fruits.shift()" ID="ID_679826130" CREATED="1510563788407" MODIFIED="1516352920123" HGAP_QUANTITY="11.000000089406964 pt" VSHIFT_QUANTITY="-124.49999628961096 pt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      supprime le premier/dernier &#233;l&#233;ment d'un tableau
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="Si le script javascript est mis entre les balises script alors le fichier javascript li&#xe9; &#xe0; cette balise n&apos;est pas pris en compte." ID="ID_1961070062" CREATED="1510138086130" MODIFIED="1510138209972"/>
 </node>
@@ -386,21 +750,135 @@
 <node TEXT="Avec l&apos;attribut media=&quot;screen and (max-width:1280px)&quot; et href=&quot;style.css&quot; charge la feuille de style si l&apos;&#xe9;cran ne d&#xe9;passe pas 1280px de large." ID="ID_511922941" CREATED="1510135515063" MODIFIED="1513603690946"/>
 <node TEXT="Boostrap fait automatiquement du responsive design." ID="ID_40262128" CREATED="1510135515064" MODIFIED="1510135515064"/>
 </node>
-<node TEXT="Ligne de commande" FOLDED="true" POSITION="left" ID="ID_1460822698" CREATED="1510134056739" MODIFIED="1515077860359">
+<node TEXT="Ligne de commande" FOLDED="true" POSITION="left" ID="ID_1460822698" CREATED="1510134056739" MODIFIED="1516353753968">
 <edge COLOR="#ff0000"/>
-<node TEXT="Cr&#xe9;er un dossier" FOLDED="true" ID="ID_1438669051" CREATED="1510134056739" MODIFIED="1510134405202">
-<node TEXT="mkdir nom-du-dossier //permet de cr&#xe9;erun dossier&#xa;&#xa;mkdir -p dossier/sous-dossier //cr&#xe9;er un dossier avec un sous-dossier" ID="ID_790614854" CREATED="1510134056739" MODIFIED="1510134405195" HGAP_QUANTITY="36.49999932944777 pt" VSHIFT_QUANTITY="-68.24999796599155 pt"/>
+<node TEXT="Cr&#xe9;er un dossier" FOLDED="true" ID="ID_1438669051" CREATED="1510134056739" MODIFIED="1516353627342">
+<node TEXT="mkdir nom-du-dossier" ID="ID_610132874" CREATED="1516353595392" MODIFIED="1516353627340" HGAP_QUANTITY="13.250000022351742 pt" VSHIFT_QUANTITY="-12.7499996200204 pt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      permet de cr&#233;er un dossier
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="Contenu d&apos;un dossier" FOLDED="true" ID="ID_1271387230" CREATED="1510134056739" MODIFIED="1510134408872" HGAP_QUANTITY="22.249999754130847 pt" VSHIFT_QUANTITY="29.999999105930357 pt">
-<node TEXT="ls //permet de voir les dossiers&#xa;ls dossier/sous-dossier (ex:home/maxime) //permet de voir le contenu de ces dossiers&#xa;ls -l //affiche les dossier en version longue&#xa;ls -a //affiche les dossiers cach&#xe9;s&#xa;ls -al //afiches les dossiers en version longue, y compris ceux cach&#xe9;s" ID="ID_1429108015" CREATED="1510134411005" MODIFIED="1510134492169"/>
+<node TEXT="mkdir -p dossier/sous-dossier" ID="ID_298272518" CREATED="1516353595392" MODIFIED="1516353608127"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cr&#233;er un dossier avec un sous-dossier
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="Afficher le chemin d&apos;un dossier" FOLDED="true" ID="ID_1046976852" CREATED="1510134056739" MODIFIED="1510134569822">
-<node TEXT="pwd //affiche le chemin du dossier dans lequel on se trouve" ID="ID_426318882" CREATED="1510134592545" MODIFIED="1510134651498"/>
 </node>
-<node TEXT="Passer en root" FOLDED="true" ID="ID_916004351" CREATED="1510134056739" MODIFIED="1510140492020">
-<node TEXT="sudo -s //permet de passer en mode superutilisateur" ID="ID_752537306" CREATED="1510134668656" MODIFIED="1510134686036"/>
+<node TEXT="Contenu d&apos;un dossier" FOLDED="true" ID="ID_1271387230" CREATED="1510134056739" MODIFIED="1516353753966" HGAP_QUANTITY="14.0 pt" VSHIFT_QUANTITY="25.499999240040804 pt">
+<node TEXT="ls" ID="ID_196538881" CREATED="1516353516054" MODIFIED="1516353529161"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      permet de voir les dossiers
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="G&#xe9;rer les paquets" FOLDED="true" ID="ID_1216840997" CREATED="1510134056739" MODIFIED="1510134763774" HGAP_QUANTITY="23.749999709427364 pt" VSHIFT_QUANTITY="30.749999083578615 pt">
+<node TEXT="ls dossier/sous-dossier (ex:home/maxime)" ID="ID_1978727734" CREATED="1516353516055" MODIFIED="1516353544723"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      permet de voir le contenu de ces dossiers
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="ls -l" ID="ID_1232339054" CREATED="1516353516056" MODIFIED="1516353555955"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      affiche les dossier en version longue
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="ls -a" ID="ID_370295164" CREATED="1516353516057" MODIFIED="1516353565076"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      affiche les dossiers cach&#233;s
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="ls -al" ID="ID_611990767" CREATED="1516353516058" MODIFIED="1516353576781"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      afiches les dossiers en version longue, y compris ceux cach&#233;s
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Passer en root" ID="ID_916004351" CREATED="1510134056739" MODIFIED="1510140492020">
+<node TEXT="sudo -s" ID="ID_752537306" CREATED="1510134668656" MODIFIED="1516353433360"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      permet de passer en mode superutilisateur
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="G&#xe9;rer les paquets" FOLDED="true" ID="ID_1216840997" CREATED="1510134056739" MODIFIED="1516353673566" HGAP_QUANTITY="15.499999955296516 pt" VSHIFT_QUANTITY="22.499999329447768 pt">
 <node TEXT="apt search nom-du-paquet //permet de trouver un fichier" ID="ID_1709567931" CREATED="1510134693684" MODIFIED="1510134736068"/>
 <node TEXT="apt --fix-broken install nom-du-paquet //permet de corriger des probl&#xe8;mes" ID="ID_182813343" CREATED="1510134754469" MODIFIED="1510134754469"/>
 <node TEXT="apt search nom-du-logiciel | grep nom (ex:PHP) //permet de recevoir et filtrer les informations re&#xe7;ues" ID="ID_101982711" CREATED="1510134771786" MODIFIED="1510134771786"/>
@@ -437,16 +915,10 @@
 <node TEXT="git pull origin master //r&#xe9;cup&#xe8;re les fichiers d&apos;un d&#xe9;p&#xf4;t distant" ID="ID_396884729" CREATED="1510135042569" MODIFIED="1510135042569"/>
 </node>
 </node>
-<node TEXT="Cr&#xe9;er un fichier Vhost(passer en root) :&#xa;cd /etc/apache2/sites-available/&#xa;&#xa;nano nom-du-fichier (ensuite cp nom-du-fichier nouveau-nom) //cr&#xe9;er un fichier apr&#xe8;s l&apos;avoir &#xe9;dit&#xe9; (copie/colle un fichier et le renomme)&#xa;&#xa;a2ensite nom-du-fichier (ou a2dissite) //activer le fichier (ou d&#xe9;sactiver), sert aussi aux mods&#xa;&#xa;systemctl restart apache2 //recharge le fichier de configuration apr&#xe8;s l&apos;avoir activ&#xe9;" FOLDED="true" ID="ID_80611797" CREATED="1510135057857" MODIFIED="1515192509503">
+<node TEXT="Cr&#xe9;er un fichier Vhost(passer en root) :&#xa;cd /etc/apache2/sites-available/&#xa;&#xa;nano nom-du-fichier (ensuite cp nom-du-fichier nouveau-nom)&#xa;//cr&#xe9;er un fichier apr&#xe8;s l&apos;avoir &#xe9;dit&#xe9; (copie/colle un fichier et le renomme)&#xa;&#xa;a2ensite nom-du-fichier (ou a2dissite)&#xa;//activer le fichier (ou d&#xe9;sactiver), sert aussi aux mods&#xa;&#xa;systemctl restart apache2&#xa;//recharge le fichier de configuration apr&#xe8;s l&apos;avoir activ&#xe9;" FOLDED="true" ID="ID_80611797" CREATED="1510135057857" MODIFIED="1516353663364">
 <node TEXT="Configurer un fichier Vhost :&#xa;cd /etc/ puis nano hosts. Ecrire 127.0.0.1 nom-du-fichier apr&#xe8;s la ligne 127.0.1.1&#xa;Enfin systemctl restart apache2" ID="ID_1425739510" CREATED="1510135193976" MODIFIED="1510140576567" HGAP_QUANTITY="25.999999642372142 pt" VSHIFT_QUANTITY="46.49999861419205 pt"/>
 </node>
-<node TEXT="Rendre inacessible certains fichiers :" FOLDED="true" ID="ID_555591097" CREATED="1510135366762" MODIFIED="1510140502974">
-<node TEXT="cd /etc/php/7.0/apache2" FOLDED="true" ID="ID_650430283" CREATED="1510135366762" MODIFIED="1510140502971">
-<node TEXT="nano php.ini" FOLDED="true" ID="ID_76327711" CREATED="1510135366762" MODIFIED="1510135366762">
-<node TEXT="Rechercher display_error 2 fois et mettre sur on." ID="ID_389981044" CREATED="1510135383038" MODIFIED="1510135383038"/>
-</node>
-</node>
-</node>
+<node TEXT="Rendre inacessible certains fichiers :&#xa;&#xa;cd /etc/php/7.0/apache2&#xa;&#xa;nano php.ini&#xa;&#xa;Rechercher display_error 2 fois et mettre sur on." ID="ID_555591097" CREATED="1510135366762" MODIFIED="1516353735305"/>
 <node TEXT="chmod -x fichier" ID="ID_1679435188" CREATED="1513594634747" MODIFIED="1513594717030"><richcontent TYPE="NOTE">
 
 <html>
@@ -473,6 +945,21 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+<node TEXT="pwd" ID="ID_426318882" CREATED="1510134592545" MODIFIED="1516353464571"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      affiche le chemin du dossier dans lequel on se trouve
+    </p>
+  </body>
+</html>
+
 </richcontent>
 </node>
 </node>
@@ -2652,7 +3139,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="SQL" POSITION="right" ID="ID_186179219" CREATED="1510134056739" MODIFIED="1510644477355" VSHIFT_QUANTITY="3.7499998882412946 pt">
+<node TEXT="SQL" FOLDED="true" POSITION="right" ID="ID_186179219" CREATED="1510134056739" MODIFIED="1510644477355" VSHIFT_QUANTITY="3.7499998882412946 pt">
 <edge COLOR="#ff0000"/>
 <node TEXT="Installer MySQL sur Linux" ID="ID_1051151281" CREATED="1516005550469" MODIFIED="1516011695932"><richcontent TYPE="NOTE">
 
@@ -2702,8 +3189,8 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="GRANT ALL PRIVILEGES ON elevage.* TO &apos;sdz&apos;@&apos;localhost&apos; IDENTIFIED BY &apos;mot_de_passe&apos;;" ID="ID_993982110" CREATED="1516005118961" MODIFIED="1516012423447">
-<node TEXT="GRANT ALL PRIVILEGES" ID="ID_1347494780" CREATED="1516012440029" MODIFIED="1516012462569"><richcontent TYPE="NOTE">
+<node TEXT="GRANT ALL PRIVILEGES ON elevage.* TO &apos;sdz&apos;@&apos;localhost&apos; IDENTIFIED BY &apos;mot_de_passe&apos;;" FOLDED="true" ID="ID_993982110" CREATED="1516005118961" MODIFIED="1516116068146">
+<node TEXT="GRANT ALL PRIVILEGES" ID="ID_1347494780" CREATED="1516012440029" MODIFIED="1516116068145" VSHIFT_QUANTITY="5.999999821186071 pt"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2774,7 +3261,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="SET NAMES &apos;utf8&apos;;" FOLDED="true" ID="ID_789034123" CREATED="1516005119318" MODIFIED="1516013301095"><richcontent TYPE="NOTE">
+<node TEXT="SET NAMES &apos;utf8&apos;;" FOLDED="true" ID="ID_789034123" CREATED="1516005119318" MODIFIED="1516181505649"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2816,7 +3303,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Cr&#xe9;er/supprimer/utiliser une base de donn&#xe9;e" ID="ID_1441706589" CREATED="1516020375166" MODIFIED="1516021681237">
+<node TEXT="Cr&#xe9;er/supprimer/utiliser/sauvegarder une base de donn&#xe9;e" FOLDED="true" ID="ID_1441706589" CREATED="1516020375166" MODIFIED="1516188084198">
 <node TEXT="CREATE DATABASE nom-de-la-base-de-donn&#xe9;e CHARACTER SET &apos;utf8&apos;;" ID="ID_812134484" CREATED="1516020393769" MODIFIED="1516020438840"><richcontent TYPE="NOTE">
 
 <html>
@@ -2874,7 +3361,8 @@
 </node>
 </node>
 <node TEXT="CREATE TABLE Animal (&#xa;    id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,&#xa;    espece VARCHAR(40) NOT NULL,&#xa;    sexe CHAR(1),&#xa;    date_naissance DATETIME NOT NULL,&#xa;    nom VARCHAR(30),&#xa;    commentaires TEXT,&#xa;    PRIMARY KEY (id)&#xa;)&#xa;&#xa;ENGINE=INNODB;" ID="ID_1497810708" CREATED="1516024163840" MODIFIED="1516024192903"/>
-<node TEXT="Tables" ID="ID_1037507110" CREATED="1516025442026" MODIFIED="1516025451373">
+<node TEXT="Tables" FOLDED="true" ID="ID_1037507110" CREATED="1516025442026" MODIFIED="1516025451373">
+<node TEXT="Affichage" FOLDED="true" ID="ID_1426254555" CREATED="1516202933784" MODIFIED="1516202938937">
 <node TEXT="SHOW TABLES;" ID="ID_472855109" CREATED="1516024259704" MODIFIED="1516024287570"><richcontent TYPE="NOTE">
 
 <html>
@@ -2903,6 +3391,22 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="DROP TABLE librairies;" ID="ID_1091880763" CREATED="1516092092040" MODIFIED="1516202912645"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Supprime une table
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Changements dans les tables" FOLDED="true" ID="ID_1072169782" CREATED="1516202900292" MODIFIED="1516202925673">
 <node TEXT="ALTER TABLE nom_table&#xa;ADD [COLUMN] nom_colonne description_colonne;" ID="ID_651943244" CREATED="1516025454255" MODIFIED="1516026071175"><richcontent TYPE="NOTE">
 
 <html>
@@ -2917,7 +3421,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="ALTER TABLE nom_table&#xa;DROP [COLUMN] nom_colonne;" ID="ID_341666648" CREATED="1516025454255" MODIFIED="1516026104255"><richcontent TYPE="NOTE">
+<node TEXT="ALTER TABLE nom_table&#xa;DROP [COLUMN] nom_colonne;" ID="ID_341666648" CREATED="1516025454255" MODIFIED="1516202909521"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2926,20 +3430,6 @@
   <body>
     <p>
       Supprimer une colonne
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="DROP TABLE librairies;" ID="ID_1091880763" CREATED="1516092092040" MODIFIED="1516092105238"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Supprime une table
     </p>
   </body>
 </html>
@@ -2959,6 +3449,7 @@
 </html>
 </richcontent>
 </node>
+</node>
 <node TEXT="DESCRIBE `frameworks`;" ID="ID_865195797" CREATED="1516096261293" MODIFIED="1516096306648"><richcontent TYPE="NOTE">
 
 <html>
@@ -2968,20 +3459,6 @@
   <body>
     <p>
       Liste les colonnes de la table
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="SHOW TABLES;" ID="ID_521060240" CREATED="1516096325195" MODIFIED="1516096341707"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Montre les tables d'une base de donn&#233;e
     </p>
   </body>
 </html>
@@ -3014,11 +3491,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="S&#xe9;lectionner des infos" ID="ID_753848235" CREATED="1516107307498" MODIFIED="1516107317228">
+<node TEXT="S&#xe9;lectionner des infos" FOLDED="true" ID="ID_753848235" CREATED="1516107307498" MODIFIED="1516107317228">
 <node TEXT="SELECT * FROM languages;" ID="ID_1499671683" CREATED="1516100597637" MODIFIED="1516100618398"><richcontent TYPE="NOTE">
 
 <html>
@@ -3045,7 +3521,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Op&#xe9;rateur logiques" FOLDED="true" ID="ID_1078744928" CREATED="1516108370973" MODIFIED="1516108378753">
@@ -3065,6 +3540,120 @@
 <node TEXT="NOT" ID="ID_1607695467" CREATED="1516108446115" MODIFIED="1516108446115"/>
 </node>
 <node TEXT="Exemples :&#xa;SELECT * FROM languages;&#xa;&#xa;SELECT * FROM languages WHERE language=&apos;PHP&apos;;&#xa;&#xa;SELECT * FROM languages WHERE language=&apos;PHP&apos; OR language=&apos;Javascript&apos;;&#xa;&#xa;SELECT * FROM languages WHERE id=3 OR id=5 OR id=7;&#xa;&#xa;SELECT * FROM languages WHERE language=&apos;Javascript&apos; AND id=1 OR id=5;&#xa;&#xa;SELECT * FROM languages WHERE NOT language=&apos;PHP&apos;;&#xa;&#xa;SELECT * FROM languages ORDER BY language ASC;" ID="ID_1502055153" CREATED="1516109664108" MODIFIED="1516109728470"/>
+<node TEXT="BETWEEN" ID="ID_900846732" CREATED="1516181774626" MODIFIED="1516181805062"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Permet de s&#233;lectionner des infos sur un interval pr&#233;cis
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="LIKE" FOLDED="true" ID="ID_1642518942" CREATED="1516182429169" MODIFIED="1516182510036"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Permet de recherche tout infos contenant ce qui est indiqu&#233;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="LIKE BINARY" ID="ID_707322127" CREATED="1516182538286" MODIFIED="1516182569677"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Idem mais sensible &#224; la casse
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="LIMIT" FOLDED="true" ID="ID_1671445608" CREATED="1516202636627" MODIFIED="1516202652576"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Restreint le nombre de ligne retourn&#233;e
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="OFFSET" ID="ID_360138178" CREATED="1516202680261" MODIFIED="1516202693065"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Met un d&#233;calage
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="NOT" ID="ID_1094289511" CREATED="1516202713119" MODIFIED="1516202728002"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ne prend pas en compte ce qui mis en param&#232;tre
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Supprimer/modifier des infos" FOLDED="true" ID="ID_1987730746" CREATED="1516188105114" MODIFIED="1516196877972">
+<node TEXT="DELETE FROM `languages` WHERE `language` = &apos;HTML&apos;;" ID="ID_497455958" CREATED="1516188129871" MODIFIED="1516188185201"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Supprime les lignes contenant le nom 'HTML' de la colone 'language' de la table 'languages'
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="UPDATE nom_table&#xa;SET col1 = val1 [, col2 = val2, ...]&#xa;[WHERE ...];" ID="ID_27601628" CREATED="1516196881140" MODIFIED="1516196921827"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Permet de modifier les don&#233;es d'un tableau
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node TEXT="CREATE DATABASE IF NOT EXISTS frameworks CHARACTER SET &apos;utf8&apos;;" ID="ID_663225629" CREATED="1516028816873" MODIFIED="1516028839452"><richcontent TYPE="NOTE">
@@ -3095,9 +3684,130 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="mysqldump -u user -p --opt nom_de_la_base &gt; sauvegarde.sql" FOLDED="true" ID="ID_789866468" CREATED="1516185758305" MODIFIED="1516185771956"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Sauvegarde la base de donn&#233;e
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="mysqldump" ID="ID_690530685" CREATED="1516185797580" MODIFIED="1516185814141"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      client permettant de sauvegarder les bases
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="--opt" ID="ID_693532146" CREATED="1516185797580" MODIFIED="1516185833678"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      option de mysqldump qui lance la commande avec une s&#233;rie de param&#232;tres qui font que la commande s'effectue tr&#232;s rapidement
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="nom_de_la_base" ID="ID_1876737140" CREATED="1516185797581" MODIFIED="1516185852918"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      nom de la base qu'on veut sauvegarder
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&gt; sauvegarde.sql" ID="ID_1427828692" CREATED="1516185797582" MODIFIED="1516185874262"/>
+</node>
+<node TEXT="Jointures" FOLDED="true" ID="ID_839297905" CREATED="1516352115482" MODIFIED="1516352145077">
+<node TEXT="Exemples :&#xa;&#xa;SELECT `languages`.`name` AS `languages_name`, `frameworks`.`name` AS `frameworks_name`&#xa;FROM `languages`&#xa;LEFT JOIN `frameworks`&#xa;ON `frameworks`.languagesId = `languages`.id;" ID="ID_395379735" CREATED="1516352157439" MODIFIED="1516352182495"/>
+<node TEXT="AS" ID="ID_1994014904" CREATED="1516352195552" MODIFIED="1516352517666"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Permet de renommer les noms des colonnes adns les tables jointes
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="LEFT JOIN" ID="ID_1715465665" CREATED="1516352189510" MODIFIED="1516352665379"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Join une 2&#232;me table (table de droite) &#224; la 1er table (table de gauche, table principale)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="RIGHT JOIN" ID="ID_203872436" CREATED="1516352190180" MODIFIED="1516352692706"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Join une 2&#232;me table (table de gauche) &#224; la 1er table (table de droite, table principale)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="INNER JOIN" ID="ID_1893142903" CREATED="1516352187721" MODIFIED="1516352813403"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Permet de joindre 2 tables, et de retourner lse lignes des 2 tables ayant une correspondance
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
-<node TEXT="Canvas" FOLDED="true" POSITION="left" ID="ID_816584781" CREATED="1510134056739" MODIFIED="1511173187651" VSHIFT_QUANTITY="3.7499998882412946 pt">
+</node>
+<node TEXT="Magick Cote (``) sont &#xe0; utiliser pour les noms de tables et de base de donn&#xe9;e.&#xa;Les simples cotes doivent &#xea;tre utilis&#xe9;es pour les valeurs et les noms de colonnes." ID="ID_568392342" CREATED="1516181502580" MODIFIED="1516352081064"/>
+</node>
+<node TEXT="Canvas" POSITION="left" ID="ID_816584781" CREATED="1510134056739" MODIFIED="1511173187651" VSHIFT_QUANTITY="3.7499998882412946 pt">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -3122,16 +3832,156 @@
 <node TEXT="usages sont si vari&#xe9;s et modulaires (d&#xe9;pendant de librairies, d&apos;images charg&#xe9;es, d&apos;interactions) qu&apos;il n&apos;existe pas d&apos;outil miracle ou d&apos;IDE (Environnement de D&#xe9;veloppement Int&#xe9;gr&#xe9;) pour produire le code n&#xe9;cessaire sans devoir toucher directement au code JavaScript" ID="ID_712486002" CREATED="1510670054840" MODIFIED="1510670054840"/>
 </node>
 <node TEXT="M&#xe9;thode" FOLDED="true" ID="ID_1849164147" CREATED="1510134056739" MODIFIED="1511173187651" VSHIFT_QUANTITY="3.7499998882412946 pt">
-<node TEXT="beginPath() -&gt; initialise le trac&#xe9;" ID="ID_1881524739" CREATED="1510670482218" MODIFIED="1510670519155"/>
-<node TEXT="moveTo(x,y) -&gt; d&#xe9;finit le point de d&#xe9;part" ID="ID_1214846918" CREATED="1510670543043" MODIFIED="1510670568930"/>
-<node TEXT="lineTo(x,y) -&gt; trac&#xe9; un trait jusqu&apos;&#xe0; la position x et y" ID="ID_760254725" CREATED="1510670601686" MODIFIED="1510670839611"/>
-<node TEXT="fill() -&gt; remplissage" ID="ID_1530458358" CREATED="1510670898776" MODIFIED="1510839335949"/>
-<node TEXT="stroke() -&gt; cr&#xe9;e des contours" ID="ID_1976009541" CREATED="1510671029935" MODIFIED="1510839346212"/>
-<node TEXT="closePath() -&gt; met fin au segment" ID="ID_1596425953" CREATED="1510671286659" MODIFIED="1510671308636"/>
-<node TEXT="strokeStyle() -&gt; modifie la couleur du remplissage" ID="ID_1058847027" CREATED="1510735800402" MODIFIED="1510735835415"/>
-<node TEXT="fillStyle() -&gt; modifie la couleur du contour" ID="ID_761133552" CREATED="1510735800402" MODIFIED="1510735849368"/>
-<node TEXT=" clearRect(startx, starty, hauteur, largeur) -&gt; efface une partie d&apos;une surface" ID="ID_874993018" CREATED="1510735915502" MODIFIED="1510735960114"/>
-<node TEXT="m.lineWidth=&quot;3&quot;; -&gt; d&#xe9;fini l&apos;&#xe9;paisseur du trait" ID="ID_1959820033" CREATED="1510740087592" MODIFIED="1510740111089"/>
+<node TEXT="beginPath()" ID="ID_1881524739" CREATED="1510670482218" MODIFIED="1516353957175"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      initialise le trac&#233;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="moveTo(x,y)" ID="ID_1214846918" CREATED="1510670543043" MODIFIED="1516353946110"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      d&#233;finit le point de d&#233;part
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="lineTo(x,y)" ID="ID_760254725" CREATED="1510670601686" MODIFIED="1516353934589"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      trac&#233; un trait jusqu'&#224; la position x et y
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="fill()" ID="ID_1530458358" CREATED="1510670898776" MODIFIED="1516353924061"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      remplissage
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="stroke()" ID="ID_1976009541" CREATED="1510671029935" MODIFIED="1516353888363"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cr&#233;e des contours
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="closePath()" ID="ID_1596425953" CREATED="1510671286659" MODIFIED="1516353876242"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      met fin au segment
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="strokeStyle()" ID="ID_1058847027" CREATED="1510735800402" MODIFIED="1516353864521"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      modifie la couleur du remplissage
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="fillStyle()" ID="ID_761133552" CREATED="1510735800402" MODIFIED="1516353804085"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      modifie la couleur du contour
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" clearRect(startx, starty, hauteur, largeur)" ID="ID_874993018" CREATED="1510735915502" MODIFIED="1516353823197"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      efface une partie d'une surface
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="m.lineWidth=&quot;3&quot;;" ID="ID_1959820033" CREATED="1510740087592" MODIFIED="1516353784444"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      d&#233;fini l'&#233;paisseur du trait
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node TEXT="fillRect(startx, starty, hauteur, largeur) -&gt; cr&#xe9;e des carr&#xe9;s et des rectangles" ID="ID_519992084" CREATED="1510751336862" MODIFIED="1510751418883"><richcontent TYPE="NOTE">
 
 <html>
@@ -3152,7 +4002,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Arcs, cercles et courbes" FOLDED="true" ID="ID_216073077" CREATED="1510736009533" MODIFIED="1510736037911"><richcontent TYPE="NOTE">
+<node TEXT="Arcs, cercles et courbes" ID="ID_216073077" CREATED="1510736009533" MODIFIED="1510736037911"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3275,7 +4125,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="bezierCurveTo( cp1x, cp1y, cp2x, cp2y, destx, desty ) -&gt; permet de faire une courbe de B&#xe9;zier" ID="ID_954906959" CREATED="1510736180026" MODIFIED="1510739499522"><richcontent TYPE="NOTE">
+<node TEXT="bezierCurveTo( cp1x, cp1y, cp2x, cp2y, destx, desty )" ID="ID_954906959" CREATED="1510736180026" MODIFIED="1516354114039"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3297,11 +4147,18 @@
     <p>
       ctx.stroke();
     </p>
+    <p>
+      
+    </p>
+    <p>
+      permet de faire une courbe de B&#233;zier
+    </p>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="quadraticCurveTo( cp1x, cp1y, destx, desty ) -&gt; permet de faire une courbe quadratique" ID="ID_1206734121" CREATED="1510736243282" MODIFIED="1510739483204"><richcontent TYPE="NOTE">
+<node TEXT="quadraticCurveTo( cp1x, cp1y, destx, desty )" ID="ID_1206734121" CREATED="1510736243282" MODIFIED="1516354095653"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3323,12 +4180,19 @@
     <p>
       ctx.stroke();
     </p>
+    <p>
+      
+    </p>
+    <p>
+      permet de faire une courbe quadratique
+    </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
-<node TEXT="lineCap() -&gt; style de fin de ligne" FOLDED="true" ID="ID_180359820" CREATED="1510741689956" MODIFIED="1510755248185"><richcontent TYPE="NOTE">
+<node TEXT="lineCap()" FOLDED="true" ID="ID_180359820" CREATED="1510741689956" MODIFIED="1516353980208"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3338,14 +4202,63 @@
     <p>
       ctx.lineCap = &quot;round&quot;;
     </p>
+    <p>
+      
+    </p>
+    <p>
+      style de fin de ligne
+    </p>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="round : pour faire un arrondi au dela du bout du trac&#xe9;," ID="ID_328682406" CREATED="1510741744216" MODIFIED="1510741744216"/>
-<node TEXT="butt : trac&#xe9; &quot;coup&#xe9;&quot; carr&#xe9;," ID="ID_1214674931" CREATED="1510741744216" MODIFIED="1510741744216"/>
-<node TEXT="square : style carr&#xe9; (d&#xe9;passe du point d&apos;arriv&#xe9;e)" ID="ID_1041872478" CREATED="1510741744217" MODIFIED="1510741744217"/>
+<node TEXT="round" ID="ID_328682406" CREATED="1510741744216" MODIFIED="1516353994994"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      pour faire un arrondi au dela du bout du trac&#233;
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="lineJoin() -&gt; style de la jointure" FOLDED="true" ID="ID_413904870" CREATED="1510741780252" MODIFIED="1510755262263"><richcontent TYPE="NOTE">
+<node TEXT="butt" ID="ID_1214674931" CREATED="1510741744216" MODIFIED="1516354007609"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      trac&#233; &quot;coup&#233;&quot; carr&#233;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="square" ID="ID_1041872478" CREATED="1510741744217" MODIFIED="1516354018762"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      style carr&#233; (d&#233;passe du point d'arriv&#233;e)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="lineJoin()" ID="ID_413904870" CREATED="1510741780252" MODIFIED="1516354034011"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3355,15 +4268,92 @@
     <p>
       ctx.lineJoin = &quot;round&quot;;
     </p>
+    <p>
+      
+    </p>
+    <p>
+      style de la jointure
+    </p>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="bevel : biseaut&#xe9;" ID="ID_1233131147" CREATED="1510741818557" MODIFIED="1510741818557"/>
-<node TEXT="round : arrondi" ID="ID_1493019842" CREATED="1510741818557" MODIFIED="1510741818557"/>
-<node TEXT="mitter : ralonge les trac&#xe9;s jusqu&apos;&#xe0; ce qu&apos;il se rejoigne enti&#xe8;rement pour faire un angle" ID="ID_1739534045" CREATED="1510741818558" MODIFIED="1510749319682"/>
+<node TEXT="bevel" ID="ID_1233131147" CREATED="1510741818557" MODIFIED="1516354079045"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      biseaut&#233;
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="ctx.font = &quot;30px Arial&quot;; -&gt; modifie la police et la taille d&apos;une texte" ID="ID_1347326275" CREATED="1510830448550" MODIFIED="1510830465601"/>
-<node TEXT="ctx.fill/strokeText(&quot;Hello World&quot;,x,y); -&gt; ajoute un texte &#xe0; la position x et y" ID="ID_396242400" CREATED="1510830448550" MODIFIED="1510905927358"/>
+<node TEXT="round" ID="ID_1493019842" CREATED="1510741818557" MODIFIED="1516354067796"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      arrondi
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="mitter" ID="ID_1739534045" CREATED="1510741818558" MODIFIED="1516354054628"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ralonge les trac&#233;s jusqu'&#224; ce qu'il se rejoigne enti&#232;rement pour faire un angle
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="ctx.font = &quot;30px Arial&quot;;" ID="ID_1347326275" CREATED="1510830448550" MODIFIED="1516353837712"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      modifie la police et la taille d'une texte
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="ctx.fill/strokeText(&quot;Hello World&quot;,x,y);" ID="ID_396242400" CREATED="1510830448550" MODIFIED="1516353850432"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ajoute un texte &#224; la position x et y
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 <node TEXT="AngularJS" FOLDED="true" POSITION="right" ID="ID_559351922" CREATED="1510134056739" MODIFIED="1511512685126" VSHIFT_QUANTITY="3.7499998882412946 pt">
@@ -3842,19 +4832,9 @@
 </node>
 <node TEXT="R&#xe9;&#xe9;criture d&apos;URL" POSITION="right" ID="ID_1679269872" CREATED="1516005106888" MODIFIED="1516005187660">
 <edge COLOR="#ff0000"/>
-<node TEXT="" ID="ID_425377279" CREATED="1516005550469" MODIFIED="1516005550469"/>
-<node TEXT="" ID="ID_1216823778" CREATED="1516005118215" MODIFIED="1516005124964"/>
-<node TEXT="" ID="ID_1597170408" CREATED="1516005118572" MODIFIED="1516005124966"/>
-<node TEXT="" ID="ID_1123490784" CREATED="1516005118961" MODIFIED="1516005124968"/>
-<node TEXT="" ID="ID_1937064711" CREATED="1516005119318" MODIFIED="1516005125002"/>
 </node>
 <node TEXT=".htpasswd" POSITION="right" ID="ID_252793317" CREATED="1516005117839" MODIFIED="1516005578149">
 <edge COLOR="#00007c"/>
-<node TEXT="" ID="ID_1359059070" CREATED="1516005550469" MODIFIED="1516005550469"/>
-<node TEXT="" ID="ID_1495629368" CREATED="1516005118215" MODIFIED="1516005124964"/>
-<node TEXT="" ID="ID_565576670" CREATED="1516005118572" MODIFIED="1516005124966"/>
-<node TEXT="" ID="ID_1034853516" CREATED="1516005118961" MODIFIED="1516005124968"/>
-<node TEXT="" ID="ID_1510240272" CREATED="1516005119318" MODIFIED="1516005125002"/>
 </node>
 </node>
 </map>
