@@ -1,9 +1,9 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Web Developper" FOLDED="false" ID="ID_1573981890" CREATED="1510133993600" MODIFIED="1513686851496" STYLE="oval">
+<node TEXT="Web Developper" FOLDED="false" ID="ID_1573981890" CREATED="1510133993600" MODIFIED="1516701514105" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.714">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+<hook NAME="MapStyle" zoom="1.885">
+    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -81,10 +81,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="40" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="Boostrap" FOLDED="true" POSITION="right" ID="ID_1526059022" CREATED="1510134056739" MODIFIED="1510137616353">
-<edge COLOR="#ff0000"/>
-<richcontent TYPE="NOTE">
+<hook NAME="AutomaticEdgeColor" COUNTER="43" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="Boostrap" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="right" ID="ID_1526059022" CREATED="1510134056739" MODIFIED="1516701636568"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -97,9 +95,15 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Il poss&#xe8;de de nombreuses class pr&#xe9;d&#xe9;finies et fonctionne en divisant la page en grille. La classe col-xs/sm/md/lg-1/2/3/4/5/6/7/8/9//10/11/12 permet d&apos;organiser sa page selon le systeme de grille. Les chiffres d&#xe9;finnissent la taille de la cellule. xs/sm/md/lg repr&#xe9;sente l&apos;espace occup&#xe9;." ID="ID_734017811" CREATED="1510137629871" MODIFIED="1510137650268"/>
-<node TEXT="Boostrap permet de faire du responsive design." ID="ID_344154116" CREATED="1510137629875" MODIFIED="1510137629875"/>
-<node TEXT="Fen&#xea;tre modal" FOLDED="true" ID="ID_610198916" CREATED="1510137629875" MODIFIED="1510559101323">
+<edge STYLE="hide_edge" COLOR="#ff0000"/>
+<node TEXT="Il poss&#xe8;de de nombreuses class pr&#xe9;d&#xe9;finies et fonctionne en divisant la page en grille. La classe col-xs/sm/md/lg-1/2/3/4/5/6/7/8/9//10/11/12 permet d&apos;organiser sa page selon le systeme de grille. Les chiffres d&#xe9;finnissent la taille de la cellule. xs/sm/md/lg repr&#xe9;sente l&apos;espace occup&#xe9;." ID="ID_734017811" CREATED="1510137629871" MODIFIED="1516701736304">
+<edge STYLE="bezier" COLOR="#ff0000"/>
+</node>
+<node TEXT="Boostrap permet de faire du responsive design." ID="ID_344154116" CREATED="1510137629875" MODIFIED="1516701736298">
+<edge STYLE="bezier" COLOR="#ff0000"/>
+</node>
+<node TEXT="Fen&#xea;tre modal" FOLDED="true" ID="ID_610198916" CREATED="1510137629875" MODIFIED="1516701736303">
+<edge STYLE="bezier" COLOR="#ff0000"/>
 <node TEXT="&lt;!-- Trigger the modal with a button --&gt;&#xa;&lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-lg&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;Open Modal&lt;/button&gt;&#xa;&#xa;&lt;!-- Modal --&gt;&#xa;&lt;div id=&quot;myModal&quot; class=&quot;modal fade&quot; role=&quot;dialog&quot;&gt;&#xa;  &lt;div class=&quot;modal-dialog&quot;&gt;&#xa;&#xa;    &lt;!-- Modal content--&gt;&#xa;    &lt;div class=&quot;modal-content&quot;&gt;&#xa;      &lt;div class=&quot;modal-header&quot;&gt;&#xa;        &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot;&gt;&amp;times;&lt;/button&gt;&#xa;        &lt;h4 class=&quot;modal-title&quot;&gt;Modal Header&lt;/h4&gt;&#xa;      &lt;/div&gt;&#xa;      &lt;div class=&quot;modal-body&quot;&gt;&#xa;        &lt;p&gt;Some text in the modal.&lt;/p&gt;&#xa;      &lt;/div&gt;&#xa;      &lt;div class=&quot;modal-footer&quot;&gt;&#xa;        &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;&#xa;      &lt;/div&gt;&#xa;    &lt;/div&gt;&#xa;&#xa;  &lt;/div&gt;&#xa;&lt;/div&gt;" FOLDED="true" ID="ID_1957331937" CREATED="1510559115395" MODIFIED="1510566895422">
 <node TEXT="Trigger" FOLDED="true" ID="ID_1681978635" CREATED="1510566926310" MODIFIED="1510567808344"><richcontent TYPE="NOTE">
 
@@ -168,8 +172,8 @@
 </node>
 </node>
 </node>
-<node TEXT="JQuery" FOLDED="true" POSITION="right" ID="ID_885630150" CREATED="1510134056739" MODIFIED="1510152894019">
-<edge COLOR="#ff0000"/>
+<node TEXT="JQuery" FOLDED="true" POSITION="right" ID="ID_885630150" CREATED="1510134056739" MODIFIED="1516701774394">
+<edge STYLE="hide_edge"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -189,7 +193,8 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="M&#xe9;thodes" FOLDED="true" ID="ID_1087893533" CREATED="1510138669481" MODIFIED="1510138677157">
+<node TEXT="M&#xe9;thodes" FOLDED="true" ID="ID_1087893533" CREATED="1510138669481" MODIFIED="1516701848673">
+<edge STYLE="bezier"/>
 <node TEXT="$ -&gt; veut dire que c&apos;est du JQuery" ID="ID_741449366" CREATED="1510138721384" MODIFIED="1510138721384"/>
 <node TEXT="element.hide() -&gt; cache l&apos;&#xe9;l&#xe9;ment s&#xe9;lectionn&#xe9;" ID="ID_1450017417" CREATED="1510138760298" MODIFIED="1510138760298"/>
 <node TEXT="element.show() -&gt; montre l&apos;&#xe9;l&#xe9;ment s&#xe9;lectionn&#xe9;" ID="ID_1483989371" CREATED="1510138777826" MODIFIED="1510138794149"/>
@@ -213,8 +218,10 @@
 <node TEXT="select() -&gt; affiche un message lorsqu&apos;un texte est s&#xe9;lectionn&#xe9; dans un champ de texte" ID="ID_956688410" CREATED="1510570215566" MODIFIED="1510570258829"/>
 <node TEXT="one() -&gt; attache un ou plusieurs gestionnaires d&apos;&#xe9;v&#xe9;nements aux &#xe9;l&#xe9;ments s&#xe9;lectionn&#xe9;s et sp&#xe9;cifie une fonction &#xe0; ex&#xe9;cuter lorsque l&apos;&#xe9;v&#xe9;nement se produit.&#xa;&#xa;Lors de l&apos;utilisation de la m&#xe9;thode one (), la fonction de gestionnaire d&apos;&#xe9;v&#xe9;nements est ex&#xe9;cut&#xe9;e UNIQUEMENT pour chaque &#xe9;l&#xe9;ment." ID="ID_321938152" CREATED="1510570404590" MODIFIED="1510570442273"/>
 </node>
-<node TEXT="Mettre $(function(){}) permet d&apos;attendre que la page soit charg&#xe9;e avant d&apos;executer les instructions" ID="ID_986920685" CREATED="1510138738216" MODIFIED="1510152894013"/>
-<node TEXT="Regex" FOLDED="true" ID="ID_1201174990" CREATED="1510153126755" MODIFIED="1510153557473"><richcontent TYPE="NOTE">
+<node TEXT="Mettre $(function(){}) permet d&apos;attendre que la page soit charg&#xe9;e avant d&apos;executer les instructions" ID="ID_986920685" CREATED="1510138738216" MODIFIED="1516701848673">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="Regex" FOLDED="true" ID="ID_1201174990" CREATED="1510153126755" MODIFIED="1516701848672"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -227,6 +234,7 @@
   </body>
 </html>
 </richcontent>
+<edge STYLE="bezier"/>
 <node TEXT="/ -&gt; d&#xe9;marre et termine une regex" ID="ID_1350795538" CREATED="1510153617740" MODIFIED="1510153632665"/>
 <node TEXT="[a-z-A-Z] -&gt; recherche toutes les lettres, y compris en majuscule" ID="ID_649018936" CREATED="1510153695153" MODIFIED="1510153695153"/>
 <node TEXT="Bonjour|revoir -&gt; indique que l&apos;on recherche l&apos;occurrence Bonjour ou l&apos;occurrence revoir" ID="ID_1592466452" CREATED="1510481438321" MODIFIED="1510481494465"/>
@@ -247,8 +255,8 @@
 <node TEXT="\ -&gt; permet de prendre en compte certains caract&#xe8;re comme des caract&#xe8;res ( ^ $ \ | { } [ ] ( ) ? # ! + * .) au lieu de les prendre pour des &#xe9;l&#xe9;ments du regex" ID="ID_320505171" CREATED="1510584081645" MODIFIED="1510584152964"/>
 </node>
 </node>
-<node TEXT="Javascript" FOLDED="true" POSITION="left" ID="ID_1539197124" CREATED="1510134056739" MODIFIED="1510137344512">
-<edge COLOR="#ff0000"/>
+<node TEXT="Javascript" FOLDED="true" POSITION="left" ID="ID_1539197124" CREATED="1510134056739" MODIFIED="1516701774406">
+<edge STYLE="hide_edge"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -292,7 +300,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Methodes" FOLDED="true" ID="ID_143870377" CREATED="1510135658022" MODIFIED="1516353128615"><richcontent TYPE="NOTE">
+<node TEXT="Methodes" FOLDED="true" ID="ID_143870377" CREATED="1510135658022" MODIFIED="1516701882428"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -305,6 +313,7 @@
   </body>
 </html>
 </richcontent>
+<edge STYLE="bezier"/>
 <node TEXT="typeof()" ID="ID_1834392370" CREATED="1510135671159" MODIFIED="1516353403109"><richcontent TYPE="NOTE">
 
 <html>
@@ -317,7 +326,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="replace(&quot;&quot;,&quot;&quot;)" ID="ID_180950159" CREATED="1510135671159" MODIFIED="1516353393227"><richcontent TYPE="NOTE">
@@ -332,7 +340,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="texte1.concat(texte2)" ID="ID_1097471534" CREATED="1510135671159" MODIFIED="1516353382394"><richcontent TYPE="NOTE">
@@ -347,7 +354,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="charAt()" ID="ID_1312730299" CREATED="1510135671160" MODIFIED="1516353368464"><richcontent TYPE="NOTE">
@@ -362,7 +368,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="texte.substr(0,9)" ID="ID_56781489" CREATED="1510135671160" MODIFIED="1516353357663"><richcontent TYPE="NOTE">
@@ -377,7 +382,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="trim()" ID="ID_1087506317" CREATED="1510135671163" MODIFIED="1516353338677"><richcontent TYPE="NOTE">
@@ -392,7 +396,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="isNaN()" ID="ID_1140102348" CREATED="1510135671164" MODIFIED="1516353259403"><richcontent TYPE="NOTE">
@@ -407,7 +410,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="texte.substr(indice pour le d&#xe9;marrage, longueur)" ID="ID_623926072" CREATED="1510135671165" MODIFIED="1516353246569"><richcontent TYPE="NOTE">
@@ -422,7 +424,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="texte.lastIndexOf()" ID="ID_1644814898" CREATED="1510135671166" MODIFIED="1516353226886"><richcontent TYPE="NOTE">
@@ -437,7 +438,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="texte.split(s&#xe9;parateur)" ID="ID_167500589" CREATED="1510135671170" MODIFIED="1516353180399"><richcontent TYPE="NOTE">
@@ -452,7 +452,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="split(&apos; &apos;)" ID="ID_791939769" CREATED="1510135671171" MODIFIED="1516353166277"><richcontent TYPE="NOTE">
@@ -467,7 +466,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="reverse()" ID="ID_944613813" CREATED="1510135671172" MODIFIED="1516353151260"><richcontent TYPE="NOTE">
@@ -482,7 +480,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="join(s&#xe9;parateur)" ID="ID_1827956649" CREATED="1510135671173" MODIFIED="1516353133836" HGAP_QUANTITY="11.750000067055224 pt" VSHIFT_QUANTITY="-4.499999865889554 pt"><richcontent TYPE="NOTE">
@@ -497,7 +494,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="split(&apos;&apos;)" ID="ID_234860227" CREATED="1510135671173" MODIFIED="1516353111796"><richcontent TYPE="NOTE">
@@ -512,7 +508,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Math.abs()" ID="ID_303863023" CREATED="1510135671174" MODIFIED="1516353086316"><richcontent TYPE="NOTE">
@@ -527,7 +522,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Math.round" ID="ID_443354923" CREATED="1510135671174" MODIFIED="1516353073844"><richcontent TYPE="NOTE">
@@ -542,7 +536,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Math.pow(x, y)" ID="ID_357332273" CREATED="1510135671174" MODIFIED="1516353062347"><richcontent TYPE="NOTE">
@@ -557,7 +550,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Math.sqrt(ab + ac)" ID="ID_1982100068" CREATED="1510135671174" MODIFIED="1516353040444"><richcontent TYPE="NOTE">
@@ -572,7 +564,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Math.hypot(ab,ac)" ID="ID_1931658879" CREATED="1510135671174" MODIFIED="1516353021379"><richcontent TYPE="NOTE">
@@ -587,7 +578,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="array.map()" ID="ID_1155586099" CREATED="1510135671175" MODIFIED="1516352977235"><richcontent TYPE="NOTE">
@@ -602,7 +592,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="cal.toFixed()" ID="ID_537691529" CREATED="1510135671176" MODIFIED="1516352959963"><richcontent TYPE="NOTE">
@@ -617,7 +606,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="parseFloat()" ID="ID_3314938" CREATED="1510135671177" MODIFIED="1516352945419"><richcontent TYPE="NOTE">
@@ -632,7 +620,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="keyup()" ID="ID_714871098" CREATED="1510138262208" MODIFIED="1516352859963"><richcontent TYPE="NOTE">
@@ -647,7 +634,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="keydown()" ID="ID_1787305007" CREATED="1510138270018" MODIFIED="1516352877011" HGAP_QUANTITY="14.0 pt" VSHIFT_QUANTITY="5.99999982118607 pt"><richcontent TYPE="NOTE">
@@ -662,7 +648,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="keypress()" ID="ID_255013739" CREATED="1510138268112" MODIFIED="1516352901162" HGAP_QUANTITY="14.749999977648256 pt" VSHIFT_QUANTITY="-4.499999865889556 pt"><richcontent TYPE="NOTE">
@@ -677,7 +662,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="fruits.pop()/fruits.shift()" ID="ID_679826130" CREATED="1510563788407" MODIFIED="1516352920123" HGAP_QUANTITY="11.000000089406964 pt" VSHIFT_QUANTITY="-124.49999628961096 pt"><richcontent TYPE="NOTE">
@@ -692,14 +676,15 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="Si le script javascript est mis entre les balises script alors le fichier javascript li&#xe9; &#xe0; cette balise n&apos;est pas pris en compte." ID="ID_1961070062" CREATED="1510138086130" MODIFIED="1510138209972"/>
+<node TEXT="Si le script javascript est mis entre les balises script alors le fichier javascript li&#xe9; &#xe0; cette balise n&apos;est pas pris en compte." ID="ID_1961070062" CREATED="1510138086130" MODIFIED="1516701882427">
+<edge STYLE="bezier"/>
 </node>
-<node TEXT="CSS" FOLDED="true" POSITION="right" ID="ID_270059695" CREATED="1510134056739" MODIFIED="1510137506875">
-<edge COLOR="#ff0000"/>
+</node>
+<node TEXT="CSS" FOLDED="true" POSITION="right" ID="ID_270059695" CREATED="1510134056739" MODIFIED="1516701774401">
+<edge STYLE="hide_edge"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -713,14 +698,22 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="transition : nom de la propri&#xe9;t&#xe9; dur&#xe9;e retard fonction; //permet d&apos;appliquer des effets s&#xe9;parer d&apos;une virgule pour s&apos;appliquer &#xe0; 2 propri&#xe9;t&#xe9;s diff&#xe9;rentes" ID="ID_411357801" CREATED="1510137545628" MODIFIED="1510137545628"/>
-<node TEXT="transform:scale(); //modifie la taille de l&apos;&#xe9;l&#xe9;ment" ID="ID_1402106215" CREATED="1510137545628" MODIFIED="1510137545628"/>
-<node TEXT=":not() -&gt; s&#xe9;lectionne tous les s&#xe9;leceurs qui ne sont pas pass&#xe9; en arguments" ID="ID_83919665" CREATED="1510478648551" MODIFIED="1510478718030"/>
+<node TEXT="transition : nom de la propri&#xe9;t&#xe9; dur&#xe9;e retard fonction; //permet d&apos;appliquer des effets s&#xe9;parer d&apos;une virgule pour s&apos;appliquer &#xe0; 2 propri&#xe9;t&#xe9;s diff&#xe9;rentes" ID="ID_411357801" CREATED="1510137545628" MODIFIED="1516701848671">
+<edge STYLE="bezier"/>
 </node>
-<node TEXT="Infos" FOLDED="true" POSITION="left" ID="ID_86607827" CREATED="1510134056739" MODIFIED="1510134126577">
-<edge COLOR="#ff0000"/>
-<node TEXT="Plug-in&#xa;ajoute des fonctionnalit&#xe9;s" ID="ID_617586890" CREATED="1510135416332" MODIFIED="1510135430945"/>
-<node ID="ID_1673286570" CREATED="1510135443056" MODIFIED="1513603702349"><richcontent TYPE="NODE">
+<node TEXT="transform:scale(); //modifie la taille de l&apos;&#xe9;l&#xe9;ment" ID="ID_1402106215" CREATED="1510137545628" MODIFIED="1516701848671">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT=":not() -&gt; s&#xe9;lectionne tous les s&#xe9;leceurs qui ne sont pas pass&#xe9; en arguments" ID="ID_83919665" CREATED="1510478648551" MODIFIED="1516701848670">
+<edge STYLE="bezier"/>
+</node>
+</node>
+<node TEXT="Infos" FOLDED="true" POSITION="left" ID="ID_86607827" CREATED="1510134056739" MODIFIED="1516701895414">
+<edge STYLE="hide_edge"/>
+<node TEXT="Plug-in&#xa;ajoute des fonctionnalit&#xe9;s" ID="ID_617586890" CREATED="1510135416332" MODIFIED="1516701882423">
+<edge STYLE="bezier"/>
+</node>
+<node ID="ID_1673286570" CREATED="1510135443056" MODIFIED="1516701882420"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -736,22 +729,47 @@
   </body>
 </html>
 </richcontent>
+<edge STYLE="bezier"/>
 </node>
-<node TEXT="L&apos;attribut title (texte alternatif lorsquel&apos;on survol un lien ou une image) et l&apos;attribut alt (information suppl&#xe9;mentaire pour les images) rendent le web plus accessible" ID="ID_1515653979" CREATED="1510135515043" MODIFIED="1510135515043"/>
-<node TEXT="Dans atom, &#xe9;crire html et appuyer sur entr&#xe9;e pour que la structure html s&apos;afiche. Idem avec div, ..." ID="ID_1106952326" CREATED="1510135515043" MODIFIED="1510135515043"/>
-<node TEXT="Dans atom, appuyer sur ctrl puis cliquer sur des lignes pour s&#xe9;lectionner plusieurs ligne et &#xe9;crire en m&#xea;me temps." ID="ID_1178984061" CREATED="1510135515045" MODIFIED="1510135515045"/>
-<node TEXT="Permet aussi de s&#xe9;lectionner plusieurs mots dans diff&#xe9;rentes lignes." ID="ID_865021828" CREATED="1510135515048" MODIFIED="1510135515048"/>
-<node TEXT="ctrl + maj + m pour redimensionner une page firefox au dimension voulue." ID="ID_879470028" CREATED="1510135515052" MODIFIED="1510135515052"/>
-<node TEXT="Ne pas faire de sauts de ligne et d&apos;espaces inutiles car les navigateurs les chargent aussi." ID="ID_1515451721" CREATED="1510135515054" MODIFIED="1510135515054"/>
-<node TEXT="Dans le terminal, lancer php fichier.php pour lancer le fichier php." ID="ID_1724700781" CREATED="1510135515056" MODIFIED="1510135515056"/>
-<node TEXT="Pour v&#xe9;rifier les erreurs d&apos;un .php, mettre le nom du fichier Vhost dans le navigateur." ID="ID_628215439" CREATED="1510135515058" MODIFIED="1510135515058"/>
-<node TEXT="Pas d&apos;echo dans une fonction, en PHP." ID="ID_728031788" CREATED="1510135515060" MODIFIED="1510135515060"/>
-<node TEXT="&lt; : permet d&apos;adapter le site &#xe0; la taille du support" ID="ID_1966475099" CREATED="1510135515062" MODIFIED="1510135515062"/>
-<node TEXT="Avec l&apos;attribut media=&quot;screen and (max-width:1280px)&quot; et href=&quot;style.css&quot; charge la feuille de style si l&apos;&#xe9;cran ne d&#xe9;passe pas 1280px de large." ID="ID_511922941" CREATED="1510135515063" MODIFIED="1513603690946"/>
-<node TEXT="Boostrap fait automatiquement du responsive design." ID="ID_40262128" CREATED="1510135515064" MODIFIED="1510135515064"/>
+<node TEXT="L&apos;attribut title (texte alternatif lorsquel&apos;on survol un lien ou une image) et l&apos;attribut alt (information suppl&#xe9;mentaire pour les images) rendent le web plus accessible" ID="ID_1515653979" CREATED="1510135515043" MODIFIED="1516701882416">
+<edge STYLE="bezier"/>
 </node>
-<node TEXT="Ligne de commande" FOLDED="true" POSITION="left" ID="ID_1460822698" CREATED="1510134056739" MODIFIED="1516353753968">
-<edge COLOR="#ff0000"/>
+<node TEXT="Dans atom, &#xe9;crire html et appuyer sur entr&#xe9;e pour que la structure html s&apos;afiche. Idem avec div, ..." ID="ID_1106952326" CREATED="1510135515043" MODIFIED="1516701882412">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="Dans atom, appuyer sur ctrl puis cliquer sur des lignes pour s&#xe9;lectionner plusieurs ligne et &#xe9;crire en m&#xea;me temps." ID="ID_1178984061" CREATED="1510135515045" MODIFIED="1516701882404">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="Permet aussi de s&#xe9;lectionner plusieurs mots dans diff&#xe9;rentes lignes." ID="ID_865021828" CREATED="1510135515048" MODIFIED="1516701882402">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="ctrl + maj + m pour redimensionner une page firefox au dimension voulue." ID="ID_879470028" CREATED="1510135515052" MODIFIED="1516701882399">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="Ne pas faire de sauts de ligne et d&apos;espaces inutiles car les navigateurs les chargent aussi." ID="ID_1515451721" CREATED="1510135515054" MODIFIED="1516701882397">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="Dans le terminal, lancer php fichier.php pour lancer le fichier php." ID="ID_1724700781" CREATED="1510135515056" MODIFIED="1516701882395">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="Pour v&#xe9;rifier les erreurs d&apos;un .php, mettre le nom du fichier Vhost dans le navigateur." ID="ID_628215439" CREATED="1510135515058" MODIFIED="1516701882394">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="Pas d&apos;echo dans une fonction, en PHP." ID="ID_728031788" CREATED="1510135515060" MODIFIED="1516701882393">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="&lt; : permet d&apos;adapter le site &#xe0; la taille du support" ID="ID_1966475099" CREATED="1510135515062" MODIFIED="1516701882392">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="Avec l&apos;attribut media=&quot;screen and (max-width:1280px)&quot; et href=&quot;style.css&quot; charge la feuille de style si l&apos;&#xe9;cran ne d&#xe9;passe pas 1280px de large." ID="ID_511922941" CREATED="1510135515063" MODIFIED="1516701882392">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="Boostrap fait automatiquement du responsive design." ID="ID_40262128" CREATED="1510135515064" MODIFIED="1516701882391">
+<edge STYLE="bezier"/>
+</node>
+</node>
+<node TEXT="Ligne de commande" FOLDED="true" POSITION="left" ID="ID_1460822698" CREATED="1510134056739" MODIFIED="1516701774407">
+<edge STYLE="hide_edge"/>
 <node TEXT="Cr&#xe9;er un dossier" FOLDED="true" ID="ID_1438669051" CREATED="1510134056739" MODIFIED="1516353627342">
 <node TEXT="mkdir nom-du-dossier" ID="ID_610132874" CREATED="1516353595392" MODIFIED="1516353627340" HGAP_QUANTITY="13.250000022351742 pt" VSHIFT_QUANTITY="-12.7499996200204 pt"><richcontent TYPE="NOTE">
 
@@ -765,7 +783,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="mkdir -p dossier/sous-dossier" ID="ID_298272518" CREATED="1516353595392" MODIFIED="1516353608127"><richcontent TYPE="NOTE">
@@ -780,7 +797,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -797,7 +813,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="ls dossier/sous-dossier (ex:home/maxime)" ID="ID_1978727734" CREATED="1516353516055" MODIFIED="1516353544723"><richcontent TYPE="NOTE">
@@ -812,7 +827,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="ls -l" ID="ID_1232339054" CREATED="1516353516056" MODIFIED="1516353555955"><richcontent TYPE="NOTE">
@@ -827,7 +841,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="ls -a" ID="ID_370295164" CREATED="1516353516057" MODIFIED="1516353565076"><richcontent TYPE="NOTE">
@@ -842,7 +855,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="ls -al" ID="ID_611990767" CREATED="1516353516058" MODIFIED="1516353576781"><richcontent TYPE="NOTE">
@@ -857,11 +869,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="Passer en root" ID="ID_916004351" CREATED="1510134056739" MODIFIED="1510140492020">
+<node TEXT="Passer en root" FOLDED="true" ID="ID_916004351" CREATED="1510134056739" MODIFIED="1510140492020">
 <node TEXT="sudo -s" ID="ID_752537306" CREATED="1510134668656" MODIFIED="1516353433360"><richcontent TYPE="NOTE">
 
 <html>
@@ -874,25 +885,27 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="G&#xe9;rer les paquets" FOLDED="true" ID="ID_1216840997" CREATED="1510134056739" MODIFIED="1516353673566" HGAP_QUANTITY="15.499999955296516 pt" VSHIFT_QUANTITY="22.499999329447768 pt">
+<node TEXT="G&#xe9;rer les paquets" FOLDED="true" ID="ID_1216840997" CREATED="1510134056739" MODIFIED="1516701915165" HGAP_QUANTITY="15.499999955296516 pt" VSHIFT_QUANTITY="22.499999329447768 pt">
+<edge STYLE="bezier"/>
 <node TEXT="apt search nom-du-paquet //permet de trouver un fichier" ID="ID_1709567931" CREATED="1510134693684" MODIFIED="1510134736068"/>
 <node TEXT="apt --fix-broken install nom-du-paquet //permet de corriger des probl&#xe8;mes" ID="ID_182813343" CREATED="1510134754469" MODIFIED="1510134754469"/>
 <node TEXT="apt search nom-du-logiciel | grep nom (ex:PHP) //permet de recevoir et filtrer les informations re&#xe7;ues" ID="ID_101982711" CREATED="1510134771786" MODIFIED="1510134771786"/>
 <node TEXT="dpkg -i nom-du-paquet //permet d&apos;installer un fichier" ID="ID_1626115270" CREATED="1510134783614" MODIFIED="1510134783614"/>
 <node TEXT="touch nom-du-fichier //permet de cr&#xe9;er un fichier" ID="ID_1952177978" CREATED="1510134790617" MODIFIED="1510134790617"/>
 </node>
-<node TEXT="Modifier l&apos;emplacement d&apos;un fichier" FOLDED="true" ID="ID_1311105313" CREATED="1510134802873" MODIFIED="1515077860355">
+<node TEXT="Modifier l&apos;emplacement d&apos;un fichier" FOLDED="true" ID="ID_1311105313" CREATED="1510134802873" MODIFIED="1516701915172">
+<edge STYLE="bezier"/>
 <node TEXT="mv nom-du-fichier nouveaux-nom //permet de renommer un fichier" ID="ID_274864402" CREATED="1510134812486" MODIFIED="1510134812486"/>
 <node TEXT="mv nom-du-fichier /chemin/dossier //d&#xe9;placer un fichier" ID="ID_944235541" CREATED="1510134838636" MODIFIED="1510134838636"/>
 <node TEXT="mv nom-du-fichier /chemin/dossier/noveau nom-du-fichier //permet de d&#xe9;placer et renommer un fichier" ID="ID_1905536958" CREATED="1510134845979" MODIFIED="1510134845979"/>
 <node TEXT="nano-nom-du-fichier //permet de modifier un fichier" ID="ID_388230370" CREATED="1510134853903" MODIFIED="1510134853903"/>
 <node TEXT="rm -rf nom-du-dossier/fichier //permet de supprimer un dossier/fichier" ID="ID_78795693" CREATED="1510134862478" MODIFIED="1510134862478"/>
 </node>
-<node TEXT="Utilisation de git :" FOLDED="true" ID="ID_1703922642" CREATED="1510134872239" MODIFIED="1510134872239">
+<node TEXT="Utilisation de git :" FOLDED="true" ID="ID_1703922642" CREATED="1510134872239" MODIFIED="1516701915171">
+<edge STYLE="bezier"/>
 <node TEXT="git config (et git config --list) //sert &#xe0; configurer git" ID="ID_126109386" CREATED="1510134880742" MODIFIED="1510134880742"/>
 <node TEXT="git clon git://lien (+ /chemin/dossier/) //clone un d&#xe9;p&#xf4;t distant, inexistant en local(+ clone dans un r&#xe9;pertoire)" ID="ID_1358436524" CREATED="1510134892086" MODIFIED="1510134892086"/>
 <node TEXT="git status //permet de v&#xe9;rifier" ID="ID_1350292350" CREATED="1510134899588" MODIFIED="1510134899588"/>
@@ -915,11 +928,14 @@
 <node TEXT="git pull origin master //r&#xe9;cup&#xe8;re les fichiers d&apos;un d&#xe9;p&#xf4;t distant" ID="ID_396884729" CREATED="1510135042569" MODIFIED="1510135042569"/>
 </node>
 </node>
-<node TEXT="Cr&#xe9;er un fichier Vhost(passer en root) :&#xa;cd /etc/apache2/sites-available/&#xa;&#xa;nano nom-du-fichier (ensuite cp nom-du-fichier nouveau-nom)&#xa;//cr&#xe9;er un fichier apr&#xe8;s l&apos;avoir &#xe9;dit&#xe9; (copie/colle un fichier et le renomme)&#xa;&#xa;a2ensite nom-du-fichier (ou a2dissite)&#xa;//activer le fichier (ou d&#xe9;sactiver), sert aussi aux mods&#xa;&#xa;systemctl restart apache2&#xa;//recharge le fichier de configuration apr&#xe8;s l&apos;avoir activ&#xe9;" FOLDED="true" ID="ID_80611797" CREATED="1510135057857" MODIFIED="1516353663364">
+<node TEXT="Cr&#xe9;er un fichier Vhost(passer en root) :&#xa;cd /etc/apache2/sites-available/&#xa;&#xa;nano nom-du-fichier (ensuite cp nom-du-fichier nouveau-nom)&#xa;//cr&#xe9;er un fichier apr&#xe8;s l&apos;avoir &#xe9;dit&#xe9; (copie/colle un fichier et le renomme)&#xa;&#xa;a2ensite nom-du-fichier (ou a2dissite)&#xa;//activer le fichier (ou d&#xe9;sactiver), sert aussi aux mods&#xa;&#xa;systemctl restart apache2&#xa;//recharge le fichier de configuration apr&#xe8;s l&apos;avoir activ&#xe9;" FOLDED="true" ID="ID_80611797" CREATED="1510135057857" MODIFIED="1516701915174">
+<edge STYLE="bezier"/>
 <node TEXT="Configurer un fichier Vhost :&#xa;cd /etc/ puis nano hosts. Ecrire 127.0.0.1 nom-du-fichier apr&#xe8;s la ligne 127.0.1.1&#xa;Enfin systemctl restart apache2" ID="ID_1425739510" CREATED="1510135193976" MODIFIED="1510140576567" HGAP_QUANTITY="25.999999642372142 pt" VSHIFT_QUANTITY="46.49999861419205 pt"/>
 </node>
-<node TEXT="Rendre inacessible certains fichiers :&#xa;&#xa;cd /etc/php/7.0/apache2&#xa;&#xa;nano php.ini&#xa;&#xa;Rechercher display_error 2 fois et mettre sur on." ID="ID_555591097" CREATED="1510135366762" MODIFIED="1516353735305"/>
-<node TEXT="chmod -x fichier" ID="ID_1679435188" CREATED="1513594634747" MODIFIED="1513594717030"><richcontent TYPE="NOTE">
+<node TEXT="Rendre inacessible certains fichiers :&#xa;&#xa;cd /etc/php/7.0/apache2&#xa;&#xa;nano php.ini&#xa;&#xa;Rechercher display_error 2 fois et mettre sur on." ID="ID_555591097" CREATED="1510135366762" MODIFIED="1516701915175">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="chmod -x fichier" ID="ID_1679435188" CREATED="1513594634747" MODIFIED="1516701915176"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -932,8 +948,9 @@
   </body>
 </html>
 </richcontent>
+<edge STYLE="bezier"/>
 </node>
-<node TEXT="sudo dpkg-reconfigure locales" ID="ID_120807980" CREATED="1515079426405" MODIFIED="1515163137699"><richcontent TYPE="NOTE">
+<node TEXT="sudo dpkg-reconfigure locales" ID="ID_120807980" CREATED="1515079426405" MODIFIED="1516701916683"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -945,9 +962,11 @@
     </p>
   </body>
 </html>
+
 </richcontent>
+<edge STYLE="bezier"/>
 </node>
-<node TEXT="pwd" ID="ID_426318882" CREATED="1510134592545" MODIFIED="1516353464571"><richcontent TYPE="NOTE">
+<node TEXT="pwd" ID="ID_426318882" CREATED="1510134592545" MODIFIED="1516701916700"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -961,10 +980,11 @@
 </html>
 
 </richcontent>
+<edge STYLE="bezier"/>
 </node>
 </node>
-<node TEXT="HTML" FOLDED="true" POSITION="left" ID="ID_790225274" CREATED="1510134072162" MODIFIED="1515079429109">
-<edge COLOR="#0000ff"/>
+<node TEXT="HTML" FOLDED="true" POSITION="left" ID="ID_790225274" CREATED="1510134072162" MODIFIED="1516701774408">
+<edge STYLE="hide_edge"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -978,7 +998,8 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Attributs" FOLDED="true" ID="ID_1640101753" CREATED="1510301293134" MODIFIED="1510301305715">
+<node TEXT="Attributs" FOLDED="true" ID="ID_1640101753" CREATED="1510301293134" MODIFIED="1516701927526">
+<edge STYLE="bezier"/>
 <node TEXT="data-" FOLDED="true" ID="ID_822001503" CREATED="1510301289389" MODIFIED="1510301289389">
 <node TEXT="Permet de stocker toutes sorte de valeur pour, ensuite, les exploiter (ex : data-gps)" ID="ID_1204701297" CREATED="1510301339207" MODIFIED="1510301435726"/>
 <node TEXT="Ne pas l&apos;utiliser pour styliser un &#xe9;l&#xe9;ment" ID="ID_389769569" CREATED="1510301375464" MODIFIED="1510301403594"/>
@@ -990,9 +1011,10 @@
 <node TEXT="Mettre seulement hidden en attribut pour cacher un &#xe9;l&#xe9;ment lors du chargement de la page. C&apos;est mieux que hidden=&quot;hidden&quot;." ID="ID_1156922122" CREATED="1510412486236" MODIFIED="1510570629212"/>
 </node>
 </node>
-<node TEXT="Veille Informatique" FOLDED="true" POSITION="left" ID="ID_205801112" CREATED="1510135574845" MODIFIED="1510135594624">
-<edge COLOR="#ff00ff"/>
-<node TEXT="Sites web" FOLDED="true" ID="ID_725079238" CREATED="1510135590933" MODIFIED="1510135601124">
+<node TEXT="Veille Informatique" FOLDED="true" POSITION="left" ID="ID_205801112" CREATED="1510135574845" MODIFIED="1516701774409">
+<edge STYLE="hide_edge"/>
+<node TEXT="Sites web" ID="ID_725079238" CREATED="1510135590933" MODIFIED="1516701954710">
+<edge STYLE="bezier"/>
 <node TEXT="appy geek" ID="ID_1922008877" CREATED="1510135590933" MODIFIED="1510135590933"/>
 <node TEXT="zdnet" ID="ID_592775060" CREATED="1510135590933" MODIFIED="1510135590933"/>
 <node TEXT="numerama" ID="ID_124175573" CREATED="1510135590933" MODIFIED="1510135590933"/>
@@ -1009,8 +1031,8 @@
 <node TEXT="Cubic" ID="ID_475085197" CREATED="1510135590933" MODIFIED="1510135590933"/>
 </node>
 </node>
-<node TEXT="Gestionnaires" FOLDED="true" POSITION="right" ID="ID_1171463899" CREATED="1510134056739" MODIFIED="1513584288170" VSHIFT_QUANTITY="3.7499998882412946 pt">
-<edge COLOR="#ff0000"/>
+<node TEXT="Gestionnaires" FOLDED="true" POSITION="right" ID="ID_1171463899" CREATED="1510134056739" MODIFIED="1516701774402" VSHIFT_QUANTITY="3.7499998882412946 pt">
+<edge STYLE="hide_edge"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -1024,7 +1046,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Bower" ID="ID_453410638" CREATED="1510134056739" MODIFIED="1510658750944" VSHIFT_QUANTITY="3.7499998882412946 pt"><richcontent TYPE="NOTE">
+<node TEXT="Bower" FOLDED="true" ID="ID_453410638" CREATED="1510134056739" MODIFIED="1516701848670" VSHIFT_QUANTITY="3.7499998882412946 pt"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1037,6 +1059,7 @@
   </body>
 </html>
 </richcontent>
+<edge STYLE="bezier"/>
 <node TEXT="Avantage/inconv&#xe9;nient :&#xa;peut transformer n&apos;importe quel d&#xe9;p&#xf4;t git et/ou fichier en paquet (plus ou moins bien organiser selon les d&#xe9;veloppeurs...)." ID="ID_37533160" CREATED="1510134056739" MODIFIED="1510658829476" VSHIFT_QUANTITY="3.7499998882412946 pt"/>
 <node TEXT="bower install -&gt; permet de r&#xe9;installer les d&#xe9;pendances" ID="ID_954670528" CREATED="1510134056739" MODIFIED="1510659046566" VSHIFT_QUANTITY="3.7499998882412946 pt"/>
 <node TEXT="Installer Bower" FOLDED="true" ID="ID_242502395" CREATED="1510134056739" MODIFIED="1510658949901" VSHIFT_QUANTITY="3.7499998882412946 pt">
@@ -1050,7 +1073,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Grunt" FOLDED="true" ID="ID_728392632" CREATED="1510134056739" MODIFIED="1510663345281" VSHIFT_QUANTITY="3.7499998882412946 pt"><richcontent TYPE="NOTE">
+<node TEXT="Grunt" FOLDED="true" ID="ID_728392632" CREATED="1510134056739" MODIFIED="1516701848670" VSHIFT_QUANTITY="3.7499998882412946 pt"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1063,6 +1086,7 @@
   </body>
 </html>
 </richcontent>
+<edge STYLE="bezier"/>
 <node TEXT="Installation" FOLDED="true" ID="ID_1655619088" CREATED="1510134056739" MODIFIED="1510663394977" HGAP_QUANTITY="14.0 pt" VSHIFT_QUANTITY="-11.999999642372142 pt">
 <node TEXT="npm init" FOLDED="true" ID="ID_1189759020" CREATED="1510663413570" MODIFIED="1510663413570">
 <node TEXT="npm install -g grunt-cli" FOLDED="true" ID="ID_1872908466" CREATED="1510663437576" MODIFIED="1510663437576">
@@ -1077,8 +1101,8 @@
 </node>
 </node>
 </node>
-<node TEXT="PHP" FOLDED="true" POSITION="right" ID="ID_152458678" CREATED="1510134056739" MODIFIED="1515138385986" HGAP_QUANTITY="14.749999977648258 pt" VSHIFT_QUANTITY="5.249999843537812 pt">
-<edge COLOR="#ff0000"/>
+<node TEXT="PHP" FOLDED="true" POSITION="right" ID="ID_152458678" CREATED="1510134056739" MODIFIED="1516701774402" HGAP_QUANTITY="14.749999977648258 pt" VSHIFT_QUANTITY="5.249999843537812 pt">
+<edge STYLE="hide_edge"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -1092,15 +1116,24 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Variable en php, commence toujours par $" ID="ID_357663658" CREATED="1513065020086" MODIFIED="1513601442113"/>
-<node TEXT="Concat&#xe9;ner" FOLDED="true" ID="ID_675520301" CREATED="1513066506820" MODIFIED="1513066579725">
+<node TEXT="Variable en php, commence toujours par $" ID="ID_357663658" CREATED="1513065020086" MODIFIED="1516701848668">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="Concat&#xe9;ner" FOLDED="true" ID="ID_675520301" CREATED="1513066506820" MODIFIED="1516701848666">
+<edge STYLE="bezier"/>
 <node TEXT="guillemets doubles permet d&apos;ins&#xe9;rer le nom d&apos;une variable&#xa;Ex :&#xa;$age_du_visiteur = 17;&#xa;echo &quot;Le visiteur a $age_du_visiteur ans&quot;;" ID="ID_1364382868" CREATED="1513066405893" MODIFIED="1513603750696"/>
 <node TEXT="Concat&#xe9;ner avec de simples guillemets&#xa;Ex :&#xa;$age_du_visiteur = 17;&#xa;echo &apos;Le visiteur a &apos; . $age_du_visiteur . &apos; ans&apos;;" ID="ID_682267454" CREATED="1513066513413" MODIFIED="1513066561680"/>
 </node>
-<node TEXT="echo -&gt; permet d&apos;efficher une variable" ID="ID_1943845660" CREATED="1513066615578" MODIFIED="1515138375402" HGAP_QUANTITY="12.500000044703482 pt" VSHIFT_QUANTITY="0.7499999776482589 pt"/>
-<node TEXT="  &apos; name &apos; -&gt; simple chaine" ID="ID_1700780024" CREATED="1513091571003" MODIFIED="1515138378511" HGAP_QUANTITY="16.249999932944775 pt" VSHIFT_QUANTITY="8.999999731779106 pt"/>
-<node TEXT="  &quot; name &quot; -&gt; potentiellement un argument" ID="ID_993721884" CREATED="1513091617142" MODIFIED="1515138385984" HGAP_QUANTITY="14.749999977648258 pt" VSHIFT_QUANTITY="13.49999959766866 pt"/>
-<node TEXT="settype ($nomVariable, string $type )" ID="ID_1935161338" CREATED="1513150764792" MODIFIED="1515138381775" HGAP_QUANTITY="14.749999977648258 pt" VSHIFT_QUANTITY="6.74999979883433 pt"><richcontent TYPE="NOTE">
+<node TEXT="echo -&gt; permet d&apos;efficher une variable" ID="ID_1943845660" CREATED="1513066615578" MODIFIED="1516701848664" HGAP_QUANTITY="12.500000044703482 pt" VSHIFT_QUANTITY="0.7499999776482589 pt">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="  &apos; name &apos; -&gt; simple chaine" ID="ID_1700780024" CREATED="1513091571003" MODIFIED="1516701848662" HGAP_QUANTITY="16.249999932944775 pt" VSHIFT_QUANTITY="8.999999731779106 pt">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="  &quot; name &quot; -&gt; potentiellement un argument" ID="ID_993721884" CREATED="1513091617142" MODIFIED="1516701848660" HGAP_QUANTITY="14.749999977648258 pt" VSHIFT_QUANTITY="13.49999959766866 pt">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="settype ($nomVariable, string $type )" ID="ID_1935161338" CREATED="1513150764792" MODIFIED="1516701848658" HGAP_QUANTITY="14.749999977648258 pt" VSHIFT_QUANTITY="6.74999979883433 pt"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1113,11 +1146,19 @@
   </body>
 </html>
 </richcontent>
+<edge STYLE="bezier"/>
 </node>
-<node TEXT="La valeur NULL permet d&apos;initialiser une variable sans valeur r&#xe9;elle." ID="ID_1026622088" CREATED="1513150873659" MODIFIED="1513150895815"/>
-<node TEXT="Pas mettre de balise HTML dans le PHP, car il n&apos;y a pas d&apos;indentation et &#xe7;a ralentit l&apos;ex&#xe9;cution du code." ID="ID_831427720" CREATED="1513151907545" MODIFIED="1515138368447"/>
-<node TEXT="if(!$nomVariable) -&gt; ! siginifie si $nomVariable est faux" ID="ID_1334767249" CREATED="1513169494320" MODIFIED="1513169558301"/>
-<node TEXT="M&#xe9;thodes" FOLDED="true" ID="ID_1510777615" CREATED="1513158291757" MODIFIED="1513347808245">
+<node TEXT="La valeur NULL permet d&apos;initialiser une variable sans valeur r&#xe9;elle." ID="ID_1026622088" CREATED="1513150873659" MODIFIED="1516701848655">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="Pas mettre de balise HTML dans le PHP, car il n&apos;y a pas d&apos;indentation et &#xe7;a ralentit l&apos;ex&#xe9;cution du code." ID="ID_831427720" CREATED="1513151907545" MODIFIED="1516701848653">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="if(!$nomVariable) -&gt; ! siginifie si $nomVariable est faux" ID="ID_1334767249" CREATED="1513169494320" MODIFIED="1516701848651">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="M&#xe9;thodes" FOLDED="true" ID="ID_1510777615" CREATED="1513158291757" MODIFIED="1516701848649">
+<edge STYLE="bezier"/>
 <node TEXT="mt_rand (min,max);" ID="ID_800771168" CREATED="1513158301447" MODIFIED="1513158360935"><richcontent TYPE="NOTE">
 
 <html>
@@ -1430,7 +1471,8 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Tableaux" FOLDED="true" ID="ID_271910329" CREATED="1513242524439" MODIFIED="1513242532018">
+<node TEXT="Tableaux" FOLDED="true" ID="ID_271910329" CREATED="1513242524439" MODIFIED="1516701848641">
+<edge STYLE="bezier"/>
 <node TEXT="Tableau associatif :&#xa;$coordonnees = array (&#xa;    &apos;prenom&apos; =&gt; &apos;Fran&#xe7;ois&apos;,&#xa;    &apos;nom&apos; =&gt; &apos;Dupont&apos;,&#xa;    &apos;adresse&apos; =&gt; &apos;3 Rue du Paradis&apos;,&#xa;    &apos;ville&apos; =&gt; &apos;Marseille&apos;);&#xa;&#xa;$coordonnees[&apos;prenom&apos;] = &apos;Fran&#xe7;ois&apos;;&#xa;$coordonnees[&apos;nom&apos;] = &apos;Dupont&apos;;&#xa;$coordonnees[&apos;adresse&apos;] = &apos;3 Rue du Paradis&apos;;&#xa;$coordonnees[&apos;ville&apos;] = &apos;Marseille&apos;;&#xa;&#xa;echo $coordonnees[&apos;ville&apos;];" ID="ID_3059495" CREATED="1513242533853" MODIFIED="1513242727122"/>
 <node TEXT="Tableau num&#xe9;rot&#xe9; :&#xa;$prenoms = array (&apos;Fran&#xe7;ois&apos;, &apos;Michel&apos;, &apos;Nicole&apos;, &apos;V&#xe9;ronique&apos;, &apos;Beno&#xee;t&apos;);&#xa;&#xa;$prenoms[0] = &apos;Fran&#xe7;ois&apos;;&#xa;$prenoms[1] = &apos;Michel&apos;;&#xa;$prenoms[2] = &apos;Nicole&apos;;&#xa;&#xa;echo $prenoms[1];" ID="ID_401707291" CREATED="1513242600451" MODIFIED="1513242662022"/>
 <node TEXT="Parcourir un tableau" FOLDED="true" ID="ID_1996992196" CREATED="1513242766744" MODIFIED="1513242773352">
@@ -1438,8 +1480,10 @@
 <node TEXT="Utiliser foreach :&#xa;&#xa;$coordonnees = array (&#xa;    &apos;prenom&apos; =&gt; &apos;Fran&#xe7;ois&apos;,&#xa;    &apos;nom&apos; =&gt; &apos;Dupont&apos;,&#xa;    &apos;adresse&apos; =&gt; &apos;3 Rue du Paradis&apos;,&#xa;    &apos;ville&apos; =&gt; &apos;Marseille&apos; );&#xa;&#xa;&#xa;foreach($coordonnees as $element) {&#xa;    echo $element . &apos; &apos;;&#xa;}&#xa;&#xa;&#xa;&#xa;foreach($coordonnees as $cle =&gt; $element){&#xa;    echo &apos;[&apos; . $cle . &apos;] vaut &apos; . $element . &apos;&lt;br /&gt;&apos;;&#xa;}&#xa;[prenom] vaut Fran&#xe7;ois&#xa;[nom] vaut Dupont&#xa;[adresse] vaut 3 rue du Paradis&#xa;[ville] vaut Marseille" ID="ID_116452218" CREATED="1513242778948" MODIFIED="1513255184548"/>
 </node>
 </node>
-<node TEXT="&amp;amp;" ID="ID_1123945719" CREATED="1513265214669" MODIFIED="1513265214669"/>
-<node TEXT="$_GET[&apos;nom&apos;]" ID="ID_1727065170" CREATED="1513265342774" MODIFIED="1514965839205"><richcontent TYPE="NOTE">
+<node TEXT="&amp;amp;" ID="ID_1123945719" CREATED="1513265214669" MODIFIED="1516701848640">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="$_GET[&apos;nom&apos;]" ID="ID_1727065170" CREATED="1513265342774" MODIFIED="1516701848638"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1470,8 +1514,9 @@
   </body>
 </html>
 </richcontent>
+<edge STYLE="bezier"/>
 </node>
-<node TEXT="$_POST[&apos;nom&apos;]" ID="ID_628339735" CREATED="1513265342774" MODIFIED="1513329108248"><richcontent TYPE="NOTE">
+<node TEXT="$_POST[&apos;nom&apos;]" ID="ID_628339735" CREATED="1513265342774" MODIFIED="1516701848637"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1490,9 +1535,13 @@
   </body>
 </html>
 </richcontent>
+<edge STYLE="bezier"/>
 </node>
-<node TEXT="Transtypage est une technique qui permet de convertir une variable dans le type de donn&#xe9;es souhait&#xe9;&#xa;&#xa;Exemple :&#xa;$_GET[&apos;repeter&apos;] = (int) $_GET[&apos;repeter&apos;];" ID="ID_1411512478" CREATED="1513324687040" MODIFIED="1514966965532"/>
-<node TEXT="Envoie de fichier" FOLDED="true" ID="ID_1401476557" CREATED="1513344439610" MODIFIED="1513344448626">
+<node TEXT="Transtypage est une technique qui permet de convertir une variable dans le type de donn&#xe9;es souhait&#xe9;&#xa;&#xa;Exemple :&#xa;$_GET[&apos;repeter&apos;] = (int) $_GET[&apos;repeter&apos;];" ID="ID_1411512478" CREATED="1513324687040" MODIFIED="1516701848636">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="Envoie de fichier" FOLDED="true" ID="ID_1401476557" CREATED="1513344439610" MODIFIED="1516701848636">
+<edge STYLE="bezier"/>
 <node TEXT="Ajouter enctype=&quot;multipart/form-data&quot; dans la balise &lt;form&gt;" ID="ID_1443814361" CREATED="1513344456494" MODIFIED="1513344470444"/>
 <node TEXT="$_FILES[&apos;monfichier&apos;][&apos;name&apos;]" ID="ID_1045933311" CREATED="1513345084260" MODIFIED="1513345184004"><richcontent TYPE="NOTE">
 
@@ -1668,7 +1717,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Variable superglobale" FOLDED="true" ID="ID_1031053357" CREATED="1513583365593" MODIFIED="1513583405020"><richcontent TYPE="NOTE">
+<node TEXT="Variable superglobale" FOLDED="true" ID="ID_1031053357" CREATED="1513583365593" MODIFIED="1516701848635"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1681,11 +1730,12 @@
   </body>
 </html>
 </richcontent>
+<edge STYLE="bezier"/>
 <node TEXT="elles sont &#xe9;crites en majuscules et commencent toutes, &#xe0; une exception pr&#xe8;s, par un underscore (_).$_GETet$_POSTen sont des exemples" ID="ID_829996668" CREATED="1513583430712" MODIFIED="1513583430712"/>
 <node TEXT="les superglobales sont des array car elles contiennent g&#xe9;n&#xe9;ralement de nombreuses informations ;" ID="ID_193041623" CREATED="1513583442494" MODIFIED="1513773938033"/>
 <node TEXT="ces variables sont automatiquement cr&#xe9;&#xe9;es par PHP &#xe0; chaque fois qu&apos;une page est charg&#xe9;e. Elles existent donc sur toutes les pages et sont accessibles partout : au milieu de votre code, au d&#xe9;but, dans les fonctions, etc." ID="ID_963279041" CREATED="1513583461947" MODIFIED="1513583461947"/>
 </node>
-<node TEXT="Session" FOLDED="true" ID="ID_312550823" CREATED="1513589142491" MODIFIED="1513601280694"><richcontent TYPE="NOTE">
+<node TEXT="Session" FOLDED="true" ID="ID_312550823" CREATED="1513589142491" MODIFIED="1516701848635"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1752,6 +1802,7 @@
   </body>
 </html>
 </richcontent>
+<edge STYLE="bezier"/>
 <node TEXT="Fonctionnement" FOLDED="true" ID="ID_608559179" CREATED="1513589265158" MODIFIED="1513589272285">
 <node TEXT="Un visiteur arrive sur votre site. On demande &#xe0; cr&#xe9;er une session pour lui. PHP g&#xe9;n&#xe8;re alors un num&#xe9;ro unique. Ce num&#xe9;ro est souvent tr&#xe8;s gros et &#xe9;crit en hexad&#xe9;cimal, par exemple : a02bbffc6198e6e0cc2715047bc3766f. (Ce num&#xe9;ro sert d&apos;identifiant et est appel&#xe9; &#xab; ID de session &#xbb; (ou  PHPSESSID ). PHP transmet automatiquement cet ID de page en page en utilisant g&#xe9;n&#xe9;ralement un cookie.)" FOLDED="true" ID="ID_410304032" CREATED="1513589281348" MODIFIED="1513589338315">
 <node TEXT="Une fois la session g&#xe9;n&#xe9;r&#xe9;e, on peut cr&#xe9;er une infinit&#xe9; de variables de session pour nos besoins. Par exemple, on peut cr&#xe9;er une variable  $_SESSION[&apos;nom&apos;]  qui contient le nom du visiteur,  $_SESSION[&apos;prenom&apos;]  qui contient le pr&#xe9;nom, etc. Le serveur conserve ces variables m&#xea;me lorsque la page PHP a fini d&apos;&#xea;tre g&#xe9;n&#xe9;r&#xe9;e. Cela veut dire que, quelle que soit la page de votre site, vous pourrez r&#xe9;cup&#xe9;rer par exemple le nom et le pr&#xe9;nom du visiteur via la superglobale  $_SESSION  !" FOLDED="true" ID="ID_1052369486" CREATED="1513589284353" MODIFIED="1513589403112">
@@ -2550,7 +2601,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Cookie" FOLDED="true" ID="ID_624088157" CREATED="1513601998494" MODIFIED="1513610227069"><richcontent TYPE="NOTE">
+<node TEXT="Cookie" FOLDED="true" ID="ID_624088157" CREATED="1513601998494" MODIFIED="1516701848635"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2563,6 +2614,7 @@
   </body>
 </html>
 </richcontent>
+<edge STYLE="bezier"/>
 <node TEXT="setcookie ($name, $value, $expire = 0, $path, $domain, $secure = false, $httponly = false)" FOLDED="true" ID="ID_1428551029" CREATED="1513602059785" MODIFIED="1513602612804">
 <node TEXT="name" ID="ID_1588403904" CREATED="1513602615698" MODIFIED="1513602634956"><richcontent TYPE="NOTE">
 
@@ -2684,7 +2736,8 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Dates" FOLDED="true" ID="ID_493794057" CREATED="1513669062641" MODIFIED="1513773866331">
+<node TEXT="Dates" FOLDED="true" ID="ID_493794057" CREATED="1513669062641" MODIFIED="1516701848634">
+<edge STYLE="bezier"/>
 <node TEXT="M&#xe9;thodes" FOLDED="true" ID="ID_879331050" CREATED="1513669078433" MODIFIED="1513773866330">
 <node TEXT="date(&quot;&quot;)" ID="ID_100580678" CREATED="1513670679288" MODIFIED="1513671849128"><richcontent TYPE="NOTE">
 
@@ -3062,12 +3115,13 @@
 </node>
 </node>
 </node>
-<node TEXT="Boucles et tableaux" ID="ID_870264046" CREATED="1513847417448" MODIFIED="1513847496838">
+<node TEXT="Boucles et tableaux" ID="ID_870264046" CREATED="1513847417448" MODIFIED="1516701848629">
 <hook NAME="AlwaysUnfoldedNode"/>
+<edge STYLE="bezier"/>
 <node TEXT="&lt;?php&#xa;&#xa;$coordonnees = array (&#xa;    &apos;prenom&apos; =&gt; &apos;Fran&#xe7;ois&apos;,&#xa;    &apos;nom&apos; =&gt; &apos;Dupont&apos;,&#xa;    &apos;adresse&apos; =&gt; &apos;3 Rue du Paradis&apos;,&#xa;    &apos;ville&apos; =&gt; &apos;Marseille&apos;);&#xa;&#xa;foreach($coordonnees as $cle =&gt; $element)&#xa;{&#xa;    echo &apos;[&apos; . $cle . &apos;] vaut &apos; . $element . &apos;&lt;br /&gt;&apos;;&#xa;}&#xa;?&gt;" ID="ID_476542528" CREATED="1513847429747" MODIFIED="1513847454454"/>
 <node TEXT="&lt;?php&#xa;$prenoms = array (&apos;Fran&#xe7;ois&apos;, &apos;Michel&apos;, &apos;Nicole&apos;, &apos;V&#xe9;ronique&apos;, &apos;Beno&#xee;t&apos;);&#xa;&#xa;foreach($prenoms as $element)&#xa;{&#xa;    echo $element . &apos;&lt;br /&gt;&apos;; // affichera $prenoms[0], $prenoms[1] etc.&#xa;}&#xa;?&gt;" ID="ID_1816659013" CREATED="1513847504536" MODIFIED="1513847528162"/>
 </node>
-<node TEXT="Installer Xdebug" ID="ID_900663246" CREATED="1513773122987" MODIFIED="1515249690259"><richcontent TYPE="NOTE">
+<node TEXT="Installer Xdebug" ID="ID_900663246" CREATED="1513773122987" MODIFIED="1516701848627"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3137,11 +3191,12 @@
   </body>
 </html>
 </richcontent>
+<edge STYLE="bezier"/>
 </node>
 </node>
-<node TEXT="SQL" FOLDED="true" POSITION="right" ID="ID_186179219" CREATED="1510134056739" MODIFIED="1510644477355" VSHIFT_QUANTITY="3.7499998882412946 pt">
-<edge COLOR="#ff0000"/>
-<node TEXT="Installer MySQL sur Linux" ID="ID_1051151281" CREATED="1516005550469" MODIFIED="1516011695932"><richcontent TYPE="NOTE">
+<node TEXT="SQL" FOLDED="true" POSITION="right" ID="ID_186179219" CREATED="1510134056739" MODIFIED="1516701774403" VSHIFT_QUANTITY="3.7499998882412946 pt">
+<edge STYLE="hide_edge"/>
+<node TEXT="Installer MySQL sur Linux" ID="ID_1051151281" CREATED="1516005550469" MODIFIED="1516701848618"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3154,8 +3209,9 @@
   </body>
 </html>
 </richcontent>
+<edge STYLE="bezier"/>
 </node>
-<node TEXT="Lancer Mysql" ID="ID_1363918623" CREATED="1516005118215" MODIFIED="1516011801402"><richcontent TYPE="NOTE">
+<node TEXT="Lancer Mysql" ID="ID_1363918623" CREATED="1516005118215" MODIFIED="1516701848623"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3174,8 +3230,9 @@
   </body>
 </html>
 </richcontent>
+<edge STYLE="bezier"/>
 </node>
-<node TEXT="SELECT" ID="ID_508572118" CREATED="1516005118572" MODIFIED="1516011934601"><richcontent TYPE="NOTE">
+<node TEXT="SELECT" ID="ID_508572118" CREATED="1516005118572" MODIFIED="1516701848613"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3188,8 +3245,10 @@
   </body>
 </html>
 </richcontent>
+<edge STYLE="bezier"/>
 </node>
-<node TEXT="GRANT ALL PRIVILEGES ON elevage.* TO &apos;sdz&apos;@&apos;localhost&apos; IDENTIFIED BY &apos;mot_de_passe&apos;;" FOLDED="true" ID="ID_993982110" CREATED="1516005118961" MODIFIED="1516116068146">
+<node TEXT="GRANT ALL PRIVILEGES ON elevage.* TO &apos;sdz&apos;@&apos;localhost&apos; IDENTIFIED BY &apos;mot_de_passe&apos;;" FOLDED="true" ID="ID_993982110" CREATED="1516005118961" MODIFIED="1516701848608">
+<edge STYLE="bezier"/>
 <node TEXT="GRANT ALL PRIVILEGES" ID="ID_1347494780" CREATED="1516012440029" MODIFIED="1516116068145" VSHIFT_QUANTITY="5.999999821186071 pt"><richcontent TYPE="NOTE">
 
 <html>
@@ -3261,7 +3320,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="SET NAMES &apos;utf8&apos;;" FOLDED="true" ID="ID_789034123" CREATED="1516005119318" MODIFIED="1516181505649"><richcontent TYPE="NOTE">
+<node TEXT="SET NAMES &apos;utf8&apos;;" FOLDED="true" ID="ID_789034123" CREATED="1516005119318" MODIFIED="1516701848604"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3274,6 +3333,7 @@
   </body>
 </html>
 </richcontent>
+<edge STYLE="bezier"/>
 <node TEXT="mysql -u root -p --default-character-set=utf8" ID="ID_1763717458" CREATED="1516013369419" MODIFIED="1516013397056"><richcontent TYPE="NOTE">
 
 <html>
@@ -3303,7 +3363,8 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Cr&#xe9;er/supprimer/utiliser/sauvegarder une base de donn&#xe9;e" FOLDED="true" ID="ID_1441706589" CREATED="1516020375166" MODIFIED="1516188084198">
+<node TEXT="Cr&#xe9;er/supprimer/utiliser/sauvegarder une base de donn&#xe9;e" FOLDED="true" ID="ID_1441706589" CREATED="1516020375166" MODIFIED="1516701848596">
+<edge STYLE="bezier"/>
 <node TEXT="CREATE DATABASE nom-de-la-base-de-donn&#xe9;e CHARACTER SET &apos;utf8&apos;;" ID="ID_812134484" CREATED="1516020393769" MODIFIED="1516020438840"><richcontent TYPE="NOTE">
 
 <html>
@@ -3581,6 +3642,38 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="&apos;%&apos;" FOLDED="true" ID="ID_1500943874" CREATED="1516619662344" MODIFIED="1516619682785"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      repr&#233;sente n'importe quelle cha&#238;ne de caract&#232;res, quelle que soit sa longueur (y compris une cha&#238;ne de longueur 0)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&apos;b%&apos; cherchera toutes les cha&#xee;nes de caract&#xe8;res commen&#xe7;ant par &apos;b&apos;" ID="ID_1014817643" CREATED="1516619697806" MODIFIED="1516619697806"/>
+<node TEXT="&apos;%ch%ne&apos; cherchera toutes les cha&#xee;nes de caract&#xe8;res contenant &apos;ch&apos; et finissant par &apos;ne&apos;" ID="ID_1031138579" CREATED="1516619717978" MODIFIED="1516619717978"/>
+</node>
+<node TEXT="&apos;_&apos;" FOLDED="true" ID="ID_1781479184" CREATED="1516619662344" MODIFIED="1516619796571"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      qui repr&#233;sente un seul caract&#232;re
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&apos;b_&apos; cherchera toutes les cha&#xee;nes de caract&#xe8;res contenant deux lettres dont la premi&#xe8;re est &apos;b&apos; (&apos;ba&apos;, &apos;bf&apos;, &apos;b8&apos;)" ID="ID_1288232735" CREATED="1516619821117" MODIFIED="1516619821117"/>
+<node TEXT="&apos;p_rl_&apos; cherchera toutes les cha&#xee;nes de caract&#xe8;res commen&#xe7;ant par un &apos;p&apos; suivi d&apos;un caract&#xe8;re, puis de &apos;rl&apos; et enfin se terminant par un caract&#xe8;re (&apos;parle&apos;, &apos;perla&apos;, &apos;perla&apos;)." ID="ID_1509135745" CREATED="1516619856901" MODIFIED="1516619856901"/>
+</node>
 </node>
 <node TEXT="LIMIT" FOLDED="true" ID="ID_1671445608" CREATED="1516202636627" MODIFIED="1516202652576"><richcontent TYPE="NOTE">
 
@@ -3619,6 +3712,20 @@
   <body>
     <p>
       Ne prend pas en compte ce qui mis en param&#232;tre
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="IN" ID="ID_642696636" CREATED="1516355698052" MODIFIED="1516355715228"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Permet de faire dse recherches parmis une liste de valeur
     </p>
   </body>
 </html>
@@ -3670,7 +3777,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="ALTER TABLE nom_table&#xa;MODIFY nom_colonne nouvelle_description;" ID="ID_347810717" CREATED="1516095902728" MODIFIED="1516100598043"><richcontent TYPE="NOTE">
+<node TEXT="ALTER TABLE nom_table&#xa;MODIFY nom_colonne nouvelle_description;" FOLDED="true" ID="ID_347810717" CREATED="1516095902728" MODIFIED="1516100598043"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3683,6 +3790,7 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="Exemple :&#xa;&#xa;ALTER TABLE `frameworks`&#xa;CHANGE `name` `framework` VARCHAR(40);&#xa;DESCRIBE `frameworks`;" ID="ID_352001843" CREATED="1516699690659" MODIFIED="1516699725775"/>
 </node>
 <node TEXT="mysqldump -u user -p --opt nom_de_la_base &gt; sauvegarde.sql" FOLDED="true" ID="ID_789866468" CREATED="1516185758305" MODIFIED="1516185771956"><richcontent TYPE="NOTE">
 
@@ -3755,7 +3863,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="LEFT JOIN" ID="ID_1715465665" CREATED="1516352189510" MODIFIED="1516352665379"><richcontent TYPE="NOTE">
@@ -3770,7 +3877,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="RIGHT JOIN" ID="ID_203872436" CREATED="1516352190180" MODIFIED="1516352692706"><richcontent TYPE="NOTE">
@@ -3785,7 +3891,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="INNER JOIN" ID="ID_1893142903" CREATED="1516352187721" MODIFIED="1516352813403"><richcontent TYPE="NOTE">
@@ -3800,15 +3905,16 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="Magick Cote (``) sont &#xe0; utiliser pour les noms de tables et de base de donn&#xe9;e.&#xa;Les simples cotes doivent &#xea;tre utilis&#xe9;es pour les valeurs et les noms de colonnes." ID="ID_568392342" CREATED="1516181502580" MODIFIED="1516352081064"/>
+<node TEXT="Magick Cote (``) sont &#xe0; utiliser pour les noms de tables et de base de donn&#xe9;e.&#xa;Les simples cotes doivent &#xea;tre utilis&#xe9;es pour les valeurs et les noms de colonnes." ID="ID_568392342" CREATED="1516181502580" MODIFIED="1516701848628">
+<edge STYLE="bezier"/>
 </node>
-<node TEXT="Canvas" POSITION="left" ID="ID_816584781" CREATED="1510134056739" MODIFIED="1511173187651" VSHIFT_QUANTITY="3.7499998882412946 pt">
-<edge COLOR="#ff0000"/>
+</node>
+<node TEXT="Canvas" FOLDED="true" POSITION="left" ID="ID_816584781" CREATED="1510134056739" MODIFIED="1516701774411" VSHIFT_QUANTITY="3.7499998882412946 pt">
+<edge STYLE="hide_edge"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -3822,16 +3928,19 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Avantages" FOLDED="true" ID="ID_1265019739" CREATED="1510134056739" MODIFIED="1510669896429" VSHIFT_QUANTITY="3.7499998882412946 pt">
+<node TEXT="Avantages" FOLDED="true" ID="ID_1265019739" CREATED="1510134056739" MODIFIED="1516701990790" VSHIFT_QUANTITY="3.7499998882412946 pt">
+<edge STYLE="bezier"/>
 <node TEXT="il est mieux pris en charge sur les mobiles (notamment sur iOS pour les iPhone, iPad, iPod qui ont &#xe9;t&#xe9; les premiers &#xe0; mettre de cot&#xe9; Flash, mais aussi Android, Opera Mobile, Firefox Mobile, etc)." ID="ID_1205132333" CREATED="1510669886145" MODIFIED="1510669886145"/>
 <node TEXT="il est performant et acc&#xe9;l&#xe9;r&#xe9; mat&#xe9;riellement sur la plupart des navigateurs et syst&#xe8;mes" ID="ID_1462321502" CREATED="1510669886143" MODIFIED="1510669886143"/>
 <node TEXT="il fonctionne tr&#xe8;s bien en osmose avec les autres standards (HTML, JavaScript)" ID="ID_1415063176" CREATED="1510669886140" MODIFIED="1510669886140"/>
 <node TEXT="il s&apos;agit d&apos;un standard d&#xe9;velopp&#xe9; par le W3C et le WhatWG" ID="ID_692949034" CREATED="1510669886140" MODIFIED="1510669886140"/>
 </node>
-<node TEXT="Inconv&#xe9;nient" FOLDED="true" ID="ID_842407027" CREATED="1510134056739" MODIFIED="1510670052064" VSHIFT_QUANTITY="3.7499998882412946 pt">
+<node TEXT="Inconv&#xe9;nient" FOLDED="true" ID="ID_842407027" CREATED="1510134056739" MODIFIED="1516701990789" VSHIFT_QUANTITY="3.7499998882412946 pt">
+<edge STYLE="bezier"/>
 <node TEXT="usages sont si vari&#xe9;s et modulaires (d&#xe9;pendant de librairies, d&apos;images charg&#xe9;es, d&apos;interactions) qu&apos;il n&apos;existe pas d&apos;outil miracle ou d&apos;IDE (Environnement de D&#xe9;veloppement Int&#xe9;gr&#xe9;) pour produire le code n&#xe9;cessaire sans devoir toucher directement au code JavaScript" ID="ID_712486002" CREATED="1510670054840" MODIFIED="1510670054840"/>
 </node>
-<node TEXT="M&#xe9;thode" FOLDED="true" ID="ID_1849164147" CREATED="1510134056739" MODIFIED="1511173187651" VSHIFT_QUANTITY="3.7499998882412946 pt">
+<node TEXT="M&#xe9;thode" FOLDED="true" ID="ID_1849164147" CREATED="1510134056739" MODIFIED="1516701990789" VSHIFT_QUANTITY="3.7499998882412946 pt">
+<edge STYLE="bezier"/>
 <node TEXT="beginPath()" ID="ID_1881524739" CREATED="1510670482218" MODIFIED="1516353957175"><richcontent TYPE="NOTE">
 
 <html>
@@ -3844,7 +3953,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="moveTo(x,y)" ID="ID_1214846918" CREATED="1510670543043" MODIFIED="1516353946110"><richcontent TYPE="NOTE">
@@ -3859,7 +3967,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="lineTo(x,y)" ID="ID_760254725" CREATED="1510670601686" MODIFIED="1516353934589"><richcontent TYPE="NOTE">
@@ -3874,7 +3981,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="fill()" ID="ID_1530458358" CREATED="1510670898776" MODIFIED="1516353924061"><richcontent TYPE="NOTE">
@@ -3889,7 +3995,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="stroke()" ID="ID_1976009541" CREATED="1510671029935" MODIFIED="1516353888363"><richcontent TYPE="NOTE">
@@ -3904,7 +4009,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="closePath()" ID="ID_1596425953" CREATED="1510671286659" MODIFIED="1516353876242"><richcontent TYPE="NOTE">
@@ -3919,7 +4023,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="strokeStyle()" ID="ID_1058847027" CREATED="1510735800402" MODIFIED="1516353864521"><richcontent TYPE="NOTE">
@@ -3934,7 +4037,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="fillStyle()" ID="ID_761133552" CREATED="1510735800402" MODIFIED="1516353804085"><richcontent TYPE="NOTE">
@@ -3949,7 +4051,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" clearRect(startx, starty, hauteur, largeur)" ID="ID_874993018" CREATED="1510735915502" MODIFIED="1516353823197"><richcontent TYPE="NOTE">
@@ -3964,7 +4065,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="m.lineWidth=&quot;3&quot;;" ID="ID_1959820033" CREATED="1510740087592" MODIFIED="1516353784444"><richcontent TYPE="NOTE">
@@ -3979,7 +4079,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="fillRect(startx, starty, hauteur, largeur) -&gt; cr&#xe9;e des carr&#xe9;s et des rectangles" ID="ID_519992084" CREATED="1510751336862" MODIFIED="1510751418883"><richcontent TYPE="NOTE">
@@ -4002,7 +4101,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Arcs, cercles et courbes" ID="ID_216073077" CREATED="1510736009533" MODIFIED="1510736037911"><richcontent TYPE="NOTE">
+<node TEXT="Arcs, cercles et courbes" FOLDED="true" ID="ID_216073077" CREATED="1510736009533" MODIFIED="1510736037911"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4155,7 +4254,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="quadraticCurveTo( cp1x, cp1y, destx, desty )" ID="ID_1206734121" CREATED="1510736243282" MODIFIED="1516354095653"><richcontent TYPE="NOTE">
@@ -4188,7 +4286,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4210,7 +4307,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="round" ID="ID_328682406" CREATED="1510741744216" MODIFIED="1516353994994"><richcontent TYPE="NOTE">
 
@@ -4224,7 +4320,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="butt" ID="ID_1214674931" CREATED="1510741744216" MODIFIED="1516354007609"><richcontent TYPE="NOTE">
@@ -4239,7 +4334,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="square" ID="ID_1041872478" CREATED="1510741744217" MODIFIED="1516354018762"><richcontent TYPE="NOTE">
@@ -4254,11 +4348,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="lineJoin()" ID="ID_413904870" CREATED="1510741780252" MODIFIED="1516354034011"><richcontent TYPE="NOTE">
+<node TEXT="lineJoin()" FOLDED="true" ID="ID_413904870" CREATED="1510741780252" MODIFIED="1516354034011"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4276,7 +4369,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="bevel" ID="ID_1233131147" CREATED="1510741818557" MODIFIED="1516354079045"><richcontent TYPE="NOTE">
 
@@ -4290,7 +4382,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="round" ID="ID_1493019842" CREATED="1510741818557" MODIFIED="1516354067796"><richcontent TYPE="NOTE">
@@ -4305,7 +4396,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="mitter" ID="ID_1739534045" CREATED="1510741818558" MODIFIED="1516354054628"><richcontent TYPE="NOTE">
@@ -4320,7 +4410,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4336,7 +4425,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="ctx.fill/strokeText(&quot;Hello World&quot;,x,y);" ID="ID_396242400" CREATED="1510830448550" MODIFIED="1516353850432"><richcontent TYPE="NOTE">
@@ -4351,13 +4439,12 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="AngularJS" FOLDED="true" POSITION="right" ID="ID_559351922" CREATED="1510134056739" MODIFIED="1511512685126" VSHIFT_QUANTITY="3.7499998882412946 pt">
-<edge COLOR="#ff0000"/>
+<node TEXT="AngularJS" FOLDED="true" POSITION="right" ID="ID_559351922" CREATED="1510134056739" MODIFIED="1516701774404" VSHIFT_QUANTITY="3.7499998882412946 pt">
+<edge STYLE="hide_edge"/>
 <node TEXT="Directives" FOLDED="true" ID="ID_1423887259" CREATED="1510134056739" MODIFIED="1511275360143" VSHIFT_QUANTITY="3.7499998882412946 pt">
 <node TEXT="pr&#xe9;fixe ng-" FOLDED="true" ID="ID_320198096" CREATED="1511173317337" MODIFIED="1511182618480">
 <node ID="ID_172741386" CREATED="1511182622620" MODIFIED="1511182622620"><richcontent TYPE="NODE">
@@ -4693,12 +4780,14 @@
 <node TEXT="[] -&gt; correspond aux d&#xe9;pendances" ID="ID_883323805" CREATED="1511513849712" MODIFIED="1511513877998"/>
 </node>
 </node>
-<node TEXT="Panier E-Commerce" FOLDED="true" POSITION="left" ID="ID_207049104" CREATED="1511469460057" MODIFIED="1511469511250">
-<edge COLOR="#00ffff"/>
-<node TEXT="$(function(){&#xa;  var valeurtotal = 0;&#xa;  // Quand on clique sur le panier d&apos;un article&#xa;   $(&quot;figure &gt; button&quot;).on(&quot;click&quot;,function(id){&#xa;     // Recuperer id du parent de input&#xa;     var id=$(this).parent(&quot;figure&quot;).attr(&quot;id&quot;);&#xa;     // recuperer src de article actuelle&#xa;      var img =$(&apos;#&apos;+id+&apos; &gt; img&apos;).attr(&apos;src&apos;);&#xa;      // recuperer le price&#xa;      var price=$(&apos;#&apos;+id+&apos; .price&apos;).text();&#xa;      // split de price pou r&#xe9;cuperer la partie nombre&#xa;      price = price.split(&quot; &quot;);&#xa;      // Ajout la partie nombre dans la variable price&#xa;      price = price[2];&#xa;      var ref =$(&apos;#&apos;+id+&apos;&gt; img&apos;).attr(&apos;ref&apos;);&#xa;      var pricetotal = price * value;&#xa;      $(&apos;#blabla&apos;).find(&apos;#test&apos;).text(valeurtotal);&#xa;      if($(&apos;#tr&apos;+id+&apos;&apos;).length &gt; 0 ){&#xa;        alert(&apos;L\&apos;article est d&#xe9;j&#xe0; dans le panier.&apos;);&#xa;        var value = $(&apos;#tabl&apos;+id+&apos; &gt; input&apos;).val();&#xa;        value++;&#xa;        $(&apos;#tabl&apos;+id+&apos; &gt; input&apos;).val(value);&#xa;        pricetotal = price * value;&#xa;        $(&apos;#priceTotal&apos;+id+&apos;&gt; p&apos;).text(pricetotal);&#xa;        valeurtotal = valeurtotal + parseInt(price);&#xa;        $(&apos;#blabla&apos;).find(&apos;#test&apos;).text(valeurtotal +&apos; He&apos;);&#xa;      }else {&#xa;        $(&quot;tbody&quot;).append( &quot;&lt;tr id=&apos;tr&quot;+id+&quot;&apos;&gt;&quot; +&quot;&lt;td&gt;&lt;img src=\&quot;&quot;+ img +&quot;\&quot; class=\&quot;imgbasket\&quot;/&gt;&lt;/td&gt;&quot;+&quot;&lt;td&gt;&quot;+ref+&quot;&lt;/td&gt;&quot;+&quot;&lt;td id=&apos;price&quot;+id+&quot;&apos;&gt;&quot;+price+&quot; He&lt;/td&gt;&quot; +&quot;&lt;td id=&apos;tabl&quot;+id+&quot;&apos;&gt;&lt;button class=&apos;plus&apos;&gt;+&lt;/button&gt;&lt;input class=&apos;price&apos; value=&apos;1&apos; disabled/&gt;&lt;button class=&apos;supp&apos;&gt;-&lt;/button&gt;&lt;/td&gt;&quot;+&quot;&lt;td id=&apos;priceTotal&quot;+id+&quot;&apos;&gt;&lt;p&gt;&quot;+pricetotal+&quot;&lt;/p&gt;&lt;/td&gt;&quot;+&quot;&lt;td id=&apos;supp&quot;+id+&quot;&apos;&gt;&lt;a&gt;&lt;i class=\&quot;icofont icofont-delete-alt\&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;&quot;+&quot;&lt;/tr&gt;&quot; );&#xa;        alert(&apos;L\&apos;article a &#xe9;t&#xe8; ajouter au panier.&apos;);&#xa;        var value = $(&apos;#tabl&apos;+id+&apos; &gt; input&apos;).val();&#xa;        pricetotal = value * price;&#xa;        $(&apos;#priceTotal&apos;+id+&apos;&gt; p&apos;).text(pricetotal);&#xa;        valeurtotal = $(&apos;#blabla&apos;).find(&apos;#test&apos;).text();&#xa;        valeurtotal = parseFloat(valeurtotal) + parseInt(price);&#xa;        $(&apos;#blabla&apos;).find(&apos;#test&apos;).text(valeurtotal +&apos; He&apos;);&#xa;      };&#xa;    $(&apos;#supp&apos;+id+&apos; &gt; a&apos;).click(function(){&#xa;      $(&apos;#tr&apos;+id+&apos;&apos;).remove();&#xa;    });&#xa;  });&#xa;$(&apos;#myBtn&apos;).on(&quot;click&quot;,function () {&#xa;  // Augmenter la quantit&#xe9; d&apos;un article&#xa;  $(&apos;.plus&apos;).click(function() {&#xa;    // R&#xe9;cuperer la value de l&apos;input de l&apos;article&#xa;    var valeurtotal = $(&apos;#blabla&apos;).find(&apos;#test&apos;).text();&#xa;    var id =$(this).parent(&apos;td&apos;).attr(&apos;id&apos;);&#xa;    var value = $(&apos;#&apos;+id+&apos; &gt; input&apos;).val();&#xa;    // Prend la value et on fait +1&#xa;    value++;&#xa;    // Ajouter la value dans l&apos;input&#xa;    $(&apos;#&apos;+id+&apos; &gt; input&apos;).val(value);&#xa;    var length = id.length;&#xa;    id = id.substring(4,length);&#xa;    var valeur = $(&apos;#price&apos;+id+&apos;&apos;).text();&#xa;    valeur = parseInt(valeur);&#xa;    pricetotal = valeur * value;&#xa;    $(&apos;#priceTotal&apos;+id+&apos;&gt; p&apos;).text(pricetotal);&#xa;    valeurtotal = $(&apos;#blabla&apos;).find(&apos;#test&apos;).text();&#xa;    valeurtotal = parseFloat(valeurtotal) + valeur;&#xa;    $(&apos;#blabla&apos;).find(&apos;#test&apos;).text(valeurtotal +&apos; He&apos;);&#xa;&#xa;  });&#xa;  // Baisse la quantit&#xe9; d&apos;une article&#xa;  $(&apos;.supp&apos;).click(function() {&#xa;    // R&#xe9;cuperer la value de l&apos;input de l&apos;article&#xa;    var id =$(this).parent(&apos;td&apos;).attr(&apos;id&apos;);&#xa;    var value = $(&apos;#&apos;+id+&apos; &gt; input&apos;).val();&#xa;    // Prend la value et on fait -1&#xa;    value--;&#xa;    // Ajouter la value dans l&apos;input&#xa;    $(&apos;#&apos;+id+&apos; &gt; input&apos;).val(value);&#xa;    var length = id.length;&#xa;    id = id.substring(4,length);&#xa;    var price = $(&apos;#price&apos;+id+&apos;&apos;).text();&#xa;    pricetotal = pricetotal - price;&#xa;    $(&apos;#priceTotal&apos;+id+&apos;&gt; p&apos;).text(pricetotal);&#xa;    valeurtotal = $(&apos;#blabla&apos;).find(&apos;#test&apos;).text();&#xa;    valeurtotal = parseFloat(valeurtotal) - price ;&#xa;    $(&apos;#blabla&apos;).find(&apos;#test&apos;).text(valeurtotal +&apos; He&apos;);&#xa;    // Si value de l&apos;input = 0 alors on supprime la ligne du tableau&#xa;    if(value == 0){&#xa;      $(&apos;#tr&apos;+id+&apos;&apos;).remove();&#xa;    }&#xa;  });&#xa;});&#xa;  $(&quot;#myBtn&quot;).click(function(){&#xa;    $(&quot;#myModal&quot;).modal();&#xa;  });&#xa;  $(&apos;figure&apos;).hover(function(){&#xa;     $(&apos;#&apos;+this.id +&apos; span&apos;).show();&#xa;&#xa;   }, function() {&#xa;     $(&apos;#&apos;+this.id +&apos; span&apos;).hide();&#xa; });&#xa;});" ID="ID_939269658" CREATED="1511469587508" MODIFIED="1511469595303"/>
+<node TEXT="Panier E-Commerce" FOLDED="true" POSITION="left" ID="ID_207049104" CREATED="1511469460057" MODIFIED="1516701774411">
+<edge STYLE="hide_edge"/>
+<node TEXT="$(function(){&#xa;  var valeurtotal = 0;&#xa;  // Quand on clique sur le panier d&apos;un article&#xa;   $(&quot;figure &gt; button&quot;).on(&quot;click&quot;,function(id){&#xa;     // Recuperer id du parent de input&#xa;     var id=$(this).parent(&quot;figure&quot;).attr(&quot;id&quot;);&#xa;     // recuperer src de article actuelle&#xa;      var img =$(&apos;#&apos;+id+&apos; &gt; img&apos;).attr(&apos;src&apos;);&#xa;      // recuperer le price&#xa;      var price=$(&apos;#&apos;+id+&apos; .price&apos;).text();&#xa;      // split de price pou r&#xe9;cuperer la partie nombre&#xa;      price = price.split(&quot; &quot;);&#xa;      // Ajout la partie nombre dans la variable price&#xa;      price = price[2];&#xa;      var ref =$(&apos;#&apos;+id+&apos;&gt; img&apos;).attr(&apos;ref&apos;);&#xa;      var pricetotal = price * value;&#xa;      $(&apos;#blabla&apos;).find(&apos;#test&apos;).text(valeurtotal);&#xa;      if($(&apos;#tr&apos;+id+&apos;&apos;).length &gt; 0 ){&#xa;        alert(&apos;L\&apos;article est d&#xe9;j&#xe0; dans le panier.&apos;);&#xa;        var value = $(&apos;#tabl&apos;+id+&apos; &gt; input&apos;).val();&#xa;        value++;&#xa;        $(&apos;#tabl&apos;+id+&apos; &gt; input&apos;).val(value);&#xa;        pricetotal = price * value;&#xa;        $(&apos;#priceTotal&apos;+id+&apos;&gt; p&apos;).text(pricetotal);&#xa;        valeurtotal = valeurtotal + parseInt(price);&#xa;        $(&apos;#blabla&apos;).find(&apos;#test&apos;).text(valeurtotal +&apos; He&apos;);&#xa;      }else {&#xa;        $(&quot;tbody&quot;).append( &quot;&lt;tr id=&apos;tr&quot;+id+&quot;&apos;&gt;&quot; +&quot;&lt;td&gt;&lt;img src=\&quot;&quot;+ img +&quot;\&quot; class=\&quot;imgbasket\&quot;/&gt;&lt;/td&gt;&quot;+&quot;&lt;td&gt;&quot;+ref+&quot;&lt;/td&gt;&quot;+&quot;&lt;td id=&apos;price&quot;+id+&quot;&apos;&gt;&quot;+price+&quot; He&lt;/td&gt;&quot; +&quot;&lt;td id=&apos;tabl&quot;+id+&quot;&apos;&gt;&lt;button class=&apos;plus&apos;&gt;+&lt;/button&gt;&lt;input class=&apos;price&apos; value=&apos;1&apos; disabled/&gt;&lt;button class=&apos;supp&apos;&gt;-&lt;/button&gt;&lt;/td&gt;&quot;+&quot;&lt;td id=&apos;priceTotal&quot;+id+&quot;&apos;&gt;&lt;p&gt;&quot;+pricetotal+&quot;&lt;/p&gt;&lt;/td&gt;&quot;+&quot;&lt;td id=&apos;supp&quot;+id+&quot;&apos;&gt;&lt;a&gt;&lt;i class=\&quot;icofont icofont-delete-alt\&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;&quot;+&quot;&lt;/tr&gt;&quot; );&#xa;        alert(&apos;L\&apos;article a &#xe9;t&#xe8; ajouter au panier.&apos;);&#xa;        var value = $(&apos;#tabl&apos;+id+&apos; &gt; input&apos;).val();&#xa;        pricetotal = value * price;&#xa;        $(&apos;#priceTotal&apos;+id+&apos;&gt; p&apos;).text(pricetotal);&#xa;        valeurtotal = $(&apos;#blabla&apos;).find(&apos;#test&apos;).text();&#xa;        valeurtotal = parseFloat(valeurtotal) + parseInt(price);&#xa;        $(&apos;#blabla&apos;).find(&apos;#test&apos;).text(valeurtotal +&apos; He&apos;);&#xa;      };&#xa;    $(&apos;#supp&apos;+id+&apos; &gt; a&apos;).click(function(){&#xa;      $(&apos;#tr&apos;+id+&apos;&apos;).remove();&#xa;    });&#xa;  });&#xa;$(&apos;#myBtn&apos;).on(&quot;click&quot;,function () {&#xa;  // Augmenter la quantit&#xe9; d&apos;un article&#xa;  $(&apos;.plus&apos;).click(function() {&#xa;    // R&#xe9;cuperer la value de l&apos;input de l&apos;article&#xa;    var valeurtotal = $(&apos;#blabla&apos;).find(&apos;#test&apos;).text();&#xa;    var id =$(this).parent(&apos;td&apos;).attr(&apos;id&apos;);&#xa;    var value = $(&apos;#&apos;+id+&apos; &gt; input&apos;).val();&#xa;    // Prend la value et on fait +1&#xa;    value++;&#xa;    // Ajouter la value dans l&apos;input&#xa;    $(&apos;#&apos;+id+&apos; &gt; input&apos;).val(value);&#xa;    var length = id.length;&#xa;    id = id.substring(4,length);&#xa;    var valeur = $(&apos;#price&apos;+id+&apos;&apos;).text();&#xa;    valeur = parseInt(valeur);&#xa;    pricetotal = valeur * value;&#xa;    $(&apos;#priceTotal&apos;+id+&apos;&gt; p&apos;).text(pricetotal);&#xa;    valeurtotal = $(&apos;#blabla&apos;).find(&apos;#test&apos;).text();&#xa;    valeurtotal = parseFloat(valeurtotal) + valeur;&#xa;    $(&apos;#blabla&apos;).find(&apos;#test&apos;).text(valeurtotal +&apos; He&apos;);&#xa;&#xa;  });&#xa;  // Baisse la quantit&#xe9; d&apos;une article&#xa;  $(&apos;.supp&apos;).click(function() {&#xa;    // R&#xe9;cuperer la value de l&apos;input de l&apos;article&#xa;    var id =$(this).parent(&apos;td&apos;).attr(&apos;id&apos;);&#xa;    var value = $(&apos;#&apos;+id+&apos; &gt; input&apos;).val();&#xa;    // Prend la value et on fait -1&#xa;    value--;&#xa;    // Ajouter la value dans l&apos;input&#xa;    $(&apos;#&apos;+id+&apos; &gt; input&apos;).val(value);&#xa;    var length = id.length;&#xa;    id = id.substring(4,length);&#xa;    var price = $(&apos;#price&apos;+id+&apos;&apos;).text();&#xa;    pricetotal = pricetotal - price;&#xa;    $(&apos;#priceTotal&apos;+id+&apos;&gt; p&apos;).text(pricetotal);&#xa;    valeurtotal = $(&apos;#blabla&apos;).find(&apos;#test&apos;).text();&#xa;    valeurtotal = parseFloat(valeurtotal) - price ;&#xa;    $(&apos;#blabla&apos;).find(&apos;#test&apos;).text(valeurtotal +&apos; He&apos;);&#xa;    // Si value de l&apos;input = 0 alors on supprime la ligne du tableau&#xa;    if(value == 0){&#xa;      $(&apos;#tr&apos;+id+&apos;&apos;).remove();&#xa;    }&#xa;  });&#xa;});&#xa;  $(&quot;#myBtn&quot;).click(function(){&#xa;    $(&quot;#myModal&quot;).modal();&#xa;  });&#xa;  $(&apos;figure&apos;).hover(function(){&#xa;     $(&apos;#&apos;+this.id +&apos; span&apos;).show();&#xa;&#xa;   }, function() {&#xa;     $(&apos;#&apos;+this.id +&apos; span&apos;).hide();&#xa; });&#xa;});" ID="ID_939269658" CREATED="1511469587508" MODIFIED="1516701990767">
+<edge STYLE="bezier"/>
 </node>
-<node TEXT="XML" FOLDED="true" POSITION="right" ID="ID_416249551" CREATED="1515579953768" MODIFIED="1515579964108">
-<edge COLOR="#007c00"/>
+</node>
+<node TEXT="XML" FOLDED="true" POSITION="right" ID="ID_416249551" CREATED="1515579953768" MODIFIED="1516701774404">
+<edge STYLE="hide_edge"/>
 <node TEXT="Afficher le contu du fichier XML" ID="ID_1028421104" CREATED="1515579966291" MODIFIED="1515580091152"><richcontent TYPE="NOTE">
 
 <html>
@@ -4809,32 +4898,65 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Pitch" FOLDED="true" POSITION="left" ID="ID_128495957" CREATED="1512048881494" MODIFIED="1512048888922">
-<edge COLOR="#7c7c00"/>
-<node TEXT="Claire, concis" ID="ID_1346526210" CREATED="1512048889954" MODIFIED="1512048906447"/>
-<node TEXT="Phrase d&apos;accroche" ID="ID_373384745" CREATED="1512048878038" MODIFIED="1512048923043"/>
-<node TEXT="1 id&#xe9;e = 1 phrase" ID="ID_789240701" CREATED="1512048911089" MODIFIED="1512048932199"/>
-<node TEXT="Pas trop complexe/technique" ID="ID_1844834745" CREATED="1512048907964" MODIFIED="1512048948492"/>
-<node TEXT="Pas de mot parasite" ID="ID_1458543707" CREATED="1512048949811" MODIFIED="1512048964777"/>
+<node TEXT="Pitch" FOLDED="true" POSITION="left" ID="ID_128495957" CREATED="1512048881494" MODIFIED="1516701774410">
+<edge STYLE="hide_edge"/>
+<node TEXT="Claire, concis" ID="ID_1346526210" CREATED="1512048889954" MODIFIED="1516702016023">
+<edge STYLE="bezier"/>
 </node>
-<node TEXT="Recherche d&apos;emploi" FOLDED="true" POSITION="left" ID="ID_1272445289" CREATED="1516001873018" MODIFIED="1516001881955">
-<edge COLOR="#ff0000"/>
-<node TEXT="Indeed" ID="ID_1090630822" CREATED="1516001882537" MODIFIED="1516001902823"/>
-<node TEXT="RegionJob" ID="ID_90320758" CREATED="1516001905310" MODIFIED="1516002005083"/>
-<node TEXT="Viadeo" ID="ID_1874158729" CREATED="1516001906596" MODIFIED="1516002005084"/>
-<node TEXT="Leboncoin" ID="ID_1833547021" CREATED="1516001908121" MODIFIED="1516002005084"/>
-<node TEXT="Lesjeudiz" ID="ID_158681189" CREATED="1516001910355" MODIFIED="1516002005084"/>
-<node TEXT="Monster" ID="ID_701068425" CREATED="1516001943144" MODIFIED="1516002005085"/>
-<node TEXT="ChooseYourBoss" ID="ID_1858362041" CREATED="1516001947360" MODIFIED="1516002005085"/>
-<node TEXT="Google" ID="ID_217127830" CREATED="1516001948695" MODIFIED="1516002005085"/>
-<node TEXT="StackOverflow" ID="ID_248962065" CREATED="1516001982573" MODIFIED="1516002005120"/>
-<node TEXT="APEC" ID="ID_1536316024" CREATED="1516002810684" MODIFIED="1516002817115"/>
+<node TEXT="Phrase d&apos;accroche" ID="ID_373384745" CREATED="1512048878038" MODIFIED="1516702016015">
+<edge STYLE="bezier"/>
 </node>
-<node TEXT="R&#xe9;&#xe9;criture d&apos;URL" POSITION="right" ID="ID_1679269872" CREATED="1516005106888" MODIFIED="1516005187660">
-<edge COLOR="#ff0000"/>
+<node TEXT="1 id&#xe9;e = 1 phrase" ID="ID_789240701" CREATED="1512048911089" MODIFIED="1516702016023">
+<edge STYLE="bezier"/>
 </node>
-<node TEXT=".htpasswd" POSITION="right" ID="ID_252793317" CREATED="1516005117839" MODIFIED="1516005578149">
-<edge COLOR="#00007c"/>
+<node TEXT="Pas trop complexe/technique" ID="ID_1844834745" CREATED="1512048907964" MODIFIED="1516702016023">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="Pas de mot parasite" ID="ID_1458543707" CREATED="1512048949811" MODIFIED="1516702016024">
+<edge STYLE="bezier"/>
+</node>
+</node>
+<node TEXT="Recherche d&apos;emploi" FOLDED="true" POSITION="left" ID="ID_1272445289" CREATED="1516001873018" MODIFIED="1516701774412">
+<edge STYLE="hide_edge"/>
+<node TEXT="Indeed" ID="ID_1090630822" CREATED="1516001882537" MODIFIED="1516702016025">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="RegionJob" ID="ID_90320758" CREATED="1516001905310" MODIFIED="1516702016025">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="Viadeo" ID="ID_1874158729" CREATED="1516001906596" MODIFIED="1516702016025">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="Leboncoin" ID="ID_1833547021" CREATED="1516001908121" MODIFIED="1516702016026">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="Lesjeudiz" ID="ID_158681189" CREATED="1516001910355" MODIFIED="1516702016027">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="Monster" ID="ID_701068425" CREATED="1516001943144" MODIFIED="1516702016026">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="ChooseYourBoss" ID="ID_1858362041" CREATED="1516001947360" MODIFIED="1516702016028">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="Google" ID="ID_217127830" CREATED="1516001948695" MODIFIED="1516702016027">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="StackOverflow" ID="ID_248962065" CREATED="1516001982573" MODIFIED="1516702016027">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="APEC" ID="ID_1536316024" CREATED="1516002810684" MODIFIED="1516702016028">
+<edge STYLE="bezier"/>
+</node>
+<node TEXT="Jobalert" ID="ID_206963529" CREATED="1516607206912" MODIFIED="1516702016028">
+<edge STYLE="bezier"/>
+</node>
+</node>
+<node TEXT="R&#xe9;&#xe9;criture d&apos;URL" POSITION="right" ID="ID_1679269872" CREATED="1516005106888" MODIFIED="1516701774405">
+<edge STYLE="hide_edge"/>
+</node>
+<node TEXT=".htpasswd" POSITION="right" ID="ID_252793317" CREATED="1516005117839" MODIFIED="1516701774405">
+<edge STYLE="hide_edge"/>
 </node>
 </node>
 </map>
